@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://joyful-youtiao-629708.netlify.app/'
 languageCode = 'en-us'
 title = 'NSpeaks'
 theme = 'PaperMod'
