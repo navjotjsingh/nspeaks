@@ -4,6 +4,7 @@ title = 'NSpeaks'
 theme = 'PaperMod'
 paginate = 5
 enableEmoji = true
+Copyright = "<a href='/archives/'>Archives</a> | <a href='/privacy-policy'>Privacy Policy</a> <span>&copy; 2022 <a href='https://nspeaks.com'>NSpeaks</a></span>"
 
 enableRobotsTXT = true
 buildDrafts = false
@@ -44,7 +45,6 @@ hideSummary = false
 showtoc = true
 tocopen = true
 enableInlineShortcodes = true
-copyright = "<a href='/archives/'>Archives</a>"
 
   [params.assets]
   favicon = "<link / abs url>"
@@ -59,7 +59,7 @@ copyright = "<a href='/archives/'>Archives</a>"
 
   [params.homeInfoParams]
   Title = "Hi there 👋"
-  Content = "Welcome to my professional space."
+  Content = "Welcome to my professional space where I share tutorials on Linux, and Server Administration. I may on occassion share random useful tips from any topic that I find of interest. You can reach me on any of my socials below."
 
   [[params.socialIcons]]
   name = "twitter"
@@ -87,10 +87,10 @@ name = "About Me"
 url = "about/"
 weight = 2
 
-[[menu.main]]
-name = "Archives"
-url = "archives/"
-weight = 5
+#[[menu.main]]
+#name = "Archives"
+#url = "archives/"
+#weight = 5
 
 [[menu.main]]
 identifier = "categories"
@@ -104,11 +104,11 @@ name = "Search"
 url = "/search/"
 weight = 10
 
-[[menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
-weight = 20
+#[[menu.main]]
+#identifier = "tags"
+#name = "Tags"
+#url = "/tags/"
+#weight = 20
 
 [[menu.main]]
 identifier = "diary"
