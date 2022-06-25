@@ -4,6 +4,7 @@ date: "2021-05-10"
 categories: 
   - "technology"
 summary: Check if your browser supports the latest JPEG XL Image format.
+slug: jpeg-xl-browser-support
 ---
 
 <picture>
