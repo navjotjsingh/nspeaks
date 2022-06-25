@@ -4,6 +4,7 @@ date: "2010-06-02"
 categories: 
   - "wordpress"
 summary: Learn about all the Template changes coming with WordPress 3.0 release.
+slug: template-changestags-for-wordpress-3-0
 ---
 
 By now everybody must be knowing that WordPress 3.0 will soon be released with some heavy-duty features which will enable WordPress to directly compete with other CMS systems like Joomla and Drupal. And as happens with any other new version of WordPress, there are bound to be some new features/functions available for WordPress which Theme/Plugin authors need to keep themselves updated with. Let me tell you about all the new template changes required for WordPress 3.0 which the theme authors should keep themselves updated with.

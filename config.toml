@@ -18,6 +18,10 @@ minifyOutput = true
 [permalinks]
 posts = '/:slug'
 
+[taxonomies]
+category = 'category'
+tag = 'tag'
+
 [params]
 env = "production"
 title = "NSpeaks"
