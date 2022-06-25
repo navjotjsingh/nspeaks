@@ -3,6 +3,7 @@ title: "Setup Discourse for Local Development"
 date: "2021-03-23"
 categories: 
   - "tutorials"
+summary: Learn how to install Discourse Forum software for Local development.
 ---
 
 There are plenty of guides available for installing Discourse Forum software on Cloud and VPS hosting but if you are a developer and want to test and work on Discourse for Local development, you need a way to install it on your local PC.

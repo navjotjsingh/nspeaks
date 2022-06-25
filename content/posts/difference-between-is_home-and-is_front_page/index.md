@@ -2,8 +2,8 @@
 title: "Difference between is_home() and is_front_page()"
 date: "2010-10-11"
 categories: 
-  - "useful-tips"
   - "wordpress"
+summary: Learn the difference between is_home() and is_front_page() WordPress template tags.
 ---
 
 Most of the Wordpress Conditional Tags are easy to understand and pretty self-explanatory with their terminology but these two tags - is\_home() and is\_front\_page() were two which left me confused. So I searched for the difference between two and found that both are actually very different in their approaches. Though both of them give same result in few cases but it doesn't mean both tags mean the same thing.

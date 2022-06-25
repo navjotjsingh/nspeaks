@@ -2,7 +2,8 @@
 title: "Run a Localhost WordPress Installation on Local Area Network"
 date: "2019-07-31"
 categories: 
-  - "useful-tips"
+  - "wordpress"
+summary: Access your Localhost WordPress install from any device on your LAN.
 ---
 
 Localhost WordPress installs are incredibly useful for doing all the development work before making the site live. Normally most of us have more than one machines at our workplace or homes. Now if you have a localhost environment setup at one, you would want to replicate the same at the other machine. For that you would need to access the same server and install from your primary machine. There's an easy way to do that.

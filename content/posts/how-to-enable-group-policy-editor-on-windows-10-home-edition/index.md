@@ -3,8 +3,11 @@ title: "How to Enable Group Policy Editor on Windows 10 Home Edition"
 date: "2015-08-15"
 categories: 
   - "useful-tips"
+tags: 
+  - "windows 10"
 cover: 
   image: "images/2015-08-15_14-20-57.png"
+summary: Learn how to enable Group Policy Editor on Windows 10 Home Desktop.
 ---
 
 Group Policy Editor is one of the most powerful tools that allow users to manage hidden settings used to enable or disable some pretty useful features of Windows. Since Windows 10, Microsoft has shipped Group Policy Editor only for the Pro and Enterprise versions of Windows but not the home versions.

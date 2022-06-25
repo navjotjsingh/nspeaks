@@ -7,7 +7,7 @@ tags:
   - "hack"
   - "medium"
   - "paywall"
-  - "tips"
+summary: Read Medium.com articles without paying a dime.
 ---
 
 ![gray laptop computer near journals](images/pexels-photo-177557-1024x682.jpeg) Photo by Negative Space on [Pexels.com](https://www.pexels.com/photo/gray-laptop-computer-near-journals-177557/)

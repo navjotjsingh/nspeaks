@@ -7,6 +7,7 @@ tags:
   - "linux"
   - "plex-media-server"
   - "ubuntu"
+summary: Install Plex Media Server on Ubuntu for all your movie and music streaming needs.
 ---
 
 ## Introduction

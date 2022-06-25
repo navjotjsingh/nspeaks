@@ -59,7 +59,7 @@ enableInlineShortcodes = true
 
   [params.homeInfoParams]
   Title = "Hi there 👋"
-  Content = "Welcome to my professional space where I share tutorials on Linux, and Server Administration. I may on occassion share random useful tips from any topic that I find of interest. You can reach me on any of my socials below."
+  Content = "Welcome to my professional space where I share tutorials on Linux, and Server Administration. I may on occassion share random useful tips from any topic that I find of interest. You can reach me on any of my socials below or you can contact me at <a href='mailto:navjot@nspeaks.com'>navjot@nspeaks.com</a>."
 
   [[params.socialIcons]]
   name = "twitter"
@@ -104,11 +104,11 @@ name = "Search"
 url = "/search/"
 weight = 10
 
-#[[menu.main]]
-#identifier = "tags"
-#name = "Tags"
-#url = "/tags/"
-#weight = 20
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
 
 [[menu.main]]
 identifier = "diary"

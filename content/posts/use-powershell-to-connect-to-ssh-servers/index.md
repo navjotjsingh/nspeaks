@@ -6,6 +6,7 @@ categories:
 tags: 
   - "powershell"
   - "ssh"
+summary: Learn to connect to an SSH server using MS Powershell.
 ---
 
 For years, I have stuck to using Putty for my SSH needs on Windows 10. It works well but I was looking into alternative SSH clients which is when I found that Windows 10 ships with an OpenSSH Client/Server package. So if you want to try an alternative, this can work as a solid tool. Do note that Putty has much more features than this so if your needs are restricted to using SSH, this should be sufficient.

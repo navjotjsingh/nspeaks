@@ -3,8 +3,7 @@ title: "Microsoft won't release PHP binaries for Windows starting from PHP 8.0"
 date: "2020-12-01"
 categories: 
   - "technology"
-tags: 
-  - "php"
+summary: PHP 8.0 Window binaries are getting a minor change.
 ---
 
 With [PHP 8.0 being released](https://www.php.net/archive/2020.php#2020-11-26-3) recently, Microsoft made an [important announcement](https://news-web.php.net/php.internals/110907) a few months back. Going forward, Microsoft won't release PHP 8.0 binaries anymore. PHP 7.4 will be the last supported PHP version that Microsoft will work on. So what it does really mean? The Windows binary packages available from https://windows.php.net were being built by Microsoft all these years. And yes, surprisingly, it was news for me as well. So going forward, Microsoft will stop working on them from PHP 8.0 onwards.

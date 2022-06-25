@@ -1,11 +1,11 @@
 ---
-title: "How to delete all your photos  in Google Photos"
+title: "How to delete all your photos in Google Photos"
 date: "2019-07-26"
 categories: 
   - "useful-tips"
 tags: 
-  - "google"
-  - "tips"
+  - "google-photos"
+summary: How to batch delete all your Google Photos.
 ---
 
 My hatred of Google keeps growing day by day. Off late the company keeps shutting down services which are still being used (Inbox) or just randomly take away features for no logical reasons.

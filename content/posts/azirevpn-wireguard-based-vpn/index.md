@@ -3,13 +3,13 @@ title: "AzireVPN - Wireguard based VPN"
 date: "2019-11-29"
 categories: 
   - "deals"
-  - "useful-tips"
 tags: 
   - "vpn"
 cover:
     image: "images/azirevpn.png"
     alt: "AzireVPN Logo"
     relative: true
+summary: One of the fastest Wireguard based VPNs.
 ---
 
 Normally, when you signup for a VPN, they are almost always based on the popular OpenVPN protocol. Some also offer **IKEv2**, **IPSEC**, **PPTP, L2TP** and **Shadowsocks** as alternatives. AzireVPN is different from all of them because it supports a relatively newer protocol - Wireguard.

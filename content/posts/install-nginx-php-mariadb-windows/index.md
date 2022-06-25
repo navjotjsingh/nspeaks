@@ -3,6 +3,9 @@ title: "Install Nginx, PHP 7.2, MariaDB on Windows"
 date: "2018-08-19"
 categories: 
   - "tutorials"
+tags:
+  - "lemp"
+summary: How to Install Nginx, PHP, MariaDB (LEMP) on a Windows PC.
 ---
 
 **UPDATE: 23 February, 2020** - Fixed a Lot of missing instructions and errors including commands to restart services.

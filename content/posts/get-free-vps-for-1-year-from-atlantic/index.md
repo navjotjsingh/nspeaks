@@ -9,6 +9,7 @@ cover:
   image: "images/freevps_atlantic.png"
   alt: "Free 1 Year VPS hosting and Block Storage"
   relative: true
+summary: Get your 1 year free VPS Hosting along with Block Storage.
 ---
 
 Recently I chanced upon [Atlantic Hosting](https://cloud.atlantic.net/r/d93mkn1q) which offers affordable cloud Virtual Private Servers. If you are new to Linux servers and want something to test, you will be glad to know that Atlantic is offering a trial VPS for 1 year at no cost. The VPS ( comes with 1 CPU Core and 2 GB RAM. You will get 50 GB disk space along with 3 TB bandwidth which should be sufficient for personal websites and apps. If you just want a VPS for testing or if you just want to get your feet warm, this is an ideal offer.

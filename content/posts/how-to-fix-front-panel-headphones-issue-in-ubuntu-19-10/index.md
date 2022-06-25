@@ -3,10 +3,10 @@ title: "How to fix Front Panel headphones Issue in Ubuntu 19.10/20.04"
 date: "2019-11-28"
 categories: 
   - "linux"
-  - "tutorials"
 tags: 
   - "headphone"
   - "sound-issue"
+summary: Learn how to fix no sound issue from front headphone port in Ubuntu.
 ---
 
 **UPDATE: 21 December - Permanent solution added**

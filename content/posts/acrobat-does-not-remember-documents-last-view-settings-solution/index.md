@@ -3,6 +3,7 @@ title: "Acrobat Reader doesn't remember the document's last view settings - Solu
 date: "2020-09-11"
 categories: 
   - "useful-tips"
+summary: Learn how to fix Acrobat Reader's document last view setting.
 ---
 
 You are reading a long PDF document or an ebook and you want to take a break. Adobe Acrobat has a setting which allows it to remember on what page you left when you closed it last along with the display option you had chosen. But sometimes as it happens, this setting stops working with certain PDF files while it works just fine with others. And why does that happen?

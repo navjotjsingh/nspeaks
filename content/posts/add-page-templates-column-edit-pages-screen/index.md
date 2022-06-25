@@ -3,15 +3,20 @@ title: "Add Page Templates Column to Edit Pages Screen"
 date: "2012-06-20"
 categories: 
   - "wordpress"
+summary: Add Theme page template column to Edit Page screen in WordPress.
 ---
 
-Recently someone asked this question over at [WPQuestions](http://wpquestions.com/question/showLoggedIn/id/4130). I thought its nice to write about it as well as this is a nice addition some of you might like to have. Its cumbersome everytime to check each page individually just to check which template they are using. There are two ways of achieving this:
+Recently someone asked this question over at [WPQuestions](https://wpquestions.com/question/showLoggedIn/id/4130). I thought its nice to write about it as well as this is a nice addition some of you might like to have. Its cumbersome everytime to check each page individually just to check which template they are using. There are two ways of achieving this:
 
 ### Using Reveal Page Templates Plugin
 
-Installing a plugin is the easiest way to achieve. [Reveal Page Templates](http://wordpress.org/extend/plugins/reveal-page-templates/) plugin will list the file name of the template in a separate column on Edit Pages Screen.
+Installing a plugin is the easiest way to achieve. ~~Reveal Page Templates~~ plugin will list the file name of the template in a separate column on Edit Pages Screen.
 
 ![Reveal Page Templates plugin screenshot](images/reveal-page-templates.jpg#center "Reveal Page Templates")
+
+### List of Alternative Plugins
+
+**Note:** Reveal Page Templates Plugin isn't available anymore as it violates WordPress Guidelines. Alternatively, you can use [Show Current Template](https://wordpress.org/plugins/show-current-template/), [Reveal Template](https://wordpress.org/plugins/reveal-template/), and [Current Template Name](https://wordpress.org/plugins/current-template-name/) plugins.
 
 ### Second Method - Custom Code
 
@@ -39,9 +44,9 @@ if( $column_name == 'page_template' ) {
 }
 ```
 
-Page Template File Names are saved inside a custom field named `_wp_page_template`. You don't see this custom field while you are editing your page because of the underscore at the starting. Yes, if you don't want your custom field to be visible, just insert an underscore before its name. But this custom field only stores the file name, not the Template Name. For example, you will see front-page.php as the value of this field and not its Template Name which can be something like 'Theme Name's Front Page'. Now **[get\_page\_templates()](http://codex.wordpress.org/Function_Reference/get_page_templates)** function returns an array containing the Template Names as the key name and the file name as its value. We use the array\_search() function to retrieve the key name(File Name) if it matches the file name.
+Page Template File Names are saved inside a custom field named `_wp_page_template`. You don't see this custom field while you are editing your page because of the underscore at the starting. Yes, if you don't want your custom field to be visible, just insert an underscore before its name. But this custom field only stores the file name, not the Template Name. For example, you will see front-page.php as the value of this field and not its Template Name which can be something like 'Theme Name's Front Page'. Now **[get\_page\_templates()](https://developer.wordpress.org/reference/functions/get_page_templates/)** function returns an array containing the Template Names as the key name and the file name as its value. We use the array\_search() function to retrieve the key name(File Name) if it matches the file name.
 
-Note: Now if the file name doesn't exist in that array which can happen if the template file is of an old theme that you were using but that is not present in the new theme, you will see the default value. If you use that plugin above, you will still see the file name which you might not find in your current theme. Custom Field's value once set does not change if you change the theme. So if you want to list the page templates if they are present in your current theme, use the above code. If you want to list any previous template it was using even if they are not present in your current theme, use the plugin or use the following modified code.
+**Note:** Now if the file name doesn't exist in that array which can happen if the template file is of an old theme that you were using but that is not present in the new theme, you will see the default value. If you use that plugin above, you will still see the file name which you might not find in your current theme. Custom Field's value once set does not change if you change the theme. So if you want to list the page templates if they are present in your current theme, use the above code. If you want to list any previous template it was using even if they are not present in your current theme, use the plugin or use the following modified code.
 
 ```php
 add_action('manage_pages_columns', 'add_page_text_column');
