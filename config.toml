@@ -1,4 +1,4 @@
-baseURL = 'https://joyful-youtiao-629708.netlify.app/'
+baseURL = 'https://nspeaks.com/'
 languageCode = 'en-us'
 title = 'NSpeaks'
 theme = 'PaperMod'
@@ -47,11 +47,11 @@ tocopen = true
 enableInlineShortcodes = true
 
   [params.assets]
-  favicon = "<link / abs url>"
-  favicon16x16 = "<link / abs url>"
-  favicon32x32 = "<link / abs url>"
-  apple_touch_icon = "<link / abs url>"
-  safari_pinned_tab = "<link / abs url>"
+  favicon = "/favicon.ico"
+  favicon16x16 = "/favicon-16x16.png"
+  favicon32x32 = "/favicon-32x32.png"
+  apple_touch_icon = "/apple-touch-icon.png"
+  safari_pinned_tab = "/safari-pinned.svg"
   disableHLJS = true
 
   [params.label]

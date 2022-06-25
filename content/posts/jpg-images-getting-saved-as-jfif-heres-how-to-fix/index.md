@@ -22,6 +22,6 @@ The change should be instant and you should now be able to save JPG files from t
 
 So you are not comfortable editing the Windows Registry yourself. Good choice. To apply the fix in a safe way, download the file below and save it someplace safe on your PC. Double click on the file in the explorer and accept the changes. That's it. You should now be able to save files as .jpg again.
 
-[jpgNOTjfif.reg](https://nspeaks.com/download/jpgNOTjfif.reg)
+[jpgNOTjfif.reg](/download/jpgNOTjfif.reg)
 
 I am hoping Microsoft will fix this bug in the future unless it was intentional in which case it is stupid.

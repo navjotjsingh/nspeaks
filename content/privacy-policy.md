@@ -17,6 +17,12 @@ We use the [Plausible analytics](https://plausible.io/privacy-focused-web-analyt
 
 You can learn more about the [data that is collected by Plausible](https://plausible.io/data-policy).
 
+### Affiliate Links
+
+We use affiliate links from time to time on this site. Clicking them may insert a cookie on your browser to collect data and to track your visit.
+
+You need to refer to the Privacy policy of the respective website for that. Posts containing affiliate links have a warning listed on the top.
+
 ## Who we share your data with
 
 Your data, including your browser information and the referrer information, is not shared with any service. No data is collected for any marketing or reselling purpose.

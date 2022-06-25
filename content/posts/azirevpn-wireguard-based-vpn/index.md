@@ -12,6 +12,8 @@ cover:
 summary: One of the fastest Wireguard based VPNs.
 ---
 
+*This post contains affiliate links through which I make money.*
+
 Normally, when you signup for a VPN, they are almost always based on the popular OpenVPN protocol. Some also offer **IKEv2**, **IPSEC**, **PPTP, L2TP** and **Shadowsocks** as alternatives. AzireVPN is different from all of them because it supports a relatively newer protocol - Wireguard.
 
 Wireguard protocol was designed to be faster, leaner and more secure. Compared to OpenVPN whose code runs into 600,000 lines, Wireguard's code weighs a mere 4000 lines. Larger codebase means it is harder to find bugs in it. Wireguard also employs stronger ciphers as compared to other protocols. Moreover, its fast connection negotiation means you can connect to the server instantly as compared to the OpenVPN where you need for almost a minute, sometimes more before making the connection.

@@ -14,7 +14,7 @@ There is a crude method to put a type tool to every text in the PSD and check on
 
 The second method is to use Javascript. Oh No, don't panic, this is not complex and you don't even need to know Javascript because it's a readymade script available.
 
-[Download the Script](https://nspeaks.com/download/font.jsx.zip)
+[Download the Script](/download/font.jsx.zip)
 
 Now in Photoshop, go to File>>Scripts>>Browse and now locate the folder which contains the font.jsx file. And after selecting the script file, click Load.
 
