@@ -1,9 +1,10 @@
 ---
-title: "Remove Border from smiley images in Wordpress"
+title: "Remove Border from smiley images in WordPress"
 date: "2007-09-05"
-categories: 
+category: 
   - "wordpress"
 summary: Remove borders from Smileys in WordPress posts using CSS.
+slug: remove-border-from-smiley-images-in-wordpress
 ---
 
 The idea for this post came because my blog's new theme had borders on all smileys which looked a bit odd. So I thought why not make a post about it.

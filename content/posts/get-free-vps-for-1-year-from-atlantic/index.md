@@ -1,15 +1,16 @@
 ---
 title: "Free 1 year VPS Hosting and Block Storage"
 date: "2019-10-05"
-categories: 
+category: 
   - "deals"
-tags: 
+tag: 
   - "vps"
 cover:
   image: "images/freevps_atlantic.png"
   alt: "Free 1 Year VPS hosting and Block Storage"
   relative: true
 summary: Get your 1 year free VPS Hosting along with Block Storage.
+slug: get-free-vps-for-1-year-from-atlantic
 ---
 
 *This post contains affiliate links through which I make money.*

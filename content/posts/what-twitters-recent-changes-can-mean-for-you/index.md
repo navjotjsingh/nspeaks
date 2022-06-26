@@ -1,9 +1,10 @@
 ---
 title: "What Twitter's recent changes can mean for you?"
 date: "2012-10-17"
-categories: 
+category: 
   - "internet"
 summary: Twitter introduced some breaking changes to it's API. Learn how it will affect you.
+slug: what-twitters-recent-changes-can-mean-for-you
 ---
 
 Twitter recently [announced](https://dev.twitter.com/docs/api/1.1/overview) [some](https://dev.twitter.com/docs/terms/summary) [big](https://dev.twitter.com/terms/api-terms) [changes](https://dev.twitter.com/blog/changes-coming-to-twitter-api) for the developers with the announcement of their new API. First of all, you need to understand what is an API. API or Application programming interface is a set of rules which are used by the applications to communicate with the service. Here the twitter related apps you use use an API provided by Twitter to communicate with it. Twitter announced some changes in their API by releasing an updated version of it. Developers have been given tile till March 5, 2013 to implement all these changes or their apps will stop working after it.

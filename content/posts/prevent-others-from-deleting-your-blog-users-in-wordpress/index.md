@@ -1,9 +1,10 @@
 ---
 title: "Prevent Others from Deleting your Blog Users in Wordpress"
 date: "2011-12-29"
-categories: 
+category: 
   - "wordpress"
 summary: Protect your WordPress blog from getting deleted by another user.
+slug: prevent-others-from-deleting-your-blog-users-in-wordpress
 ---
 
 When you have a multi-author blog having several administrators on your blog, it's important to have complete security setup on your blog. You may trust your co-administrators but still its better to have an edge with a bit of extra security measures. Now, administrators can delete any user from your blog. To prevent your co-administrators from doing this, you can follow either of the following two methods.

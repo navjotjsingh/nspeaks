@@ -1,11 +1,12 @@
 ---
 title: "How to analyse a site completely"
 date: "2008-08-30"
-categories: 
+category: 
   - "internet"
   - "technology"
   - "useful-tips"
 summary: How to find more information about a website using web tools?
+slug: how-to-analyse-a-site-completely
 ---
 
 So Site Analysis is becoming very important nowdays. Its important if you want to track where your own website is heading towards or even want to find about any other site. These type of information is very useful if you want to buy a website and want a complete detail of that website so that you don't feel cheated afterwards. Well I am going to list a few useful tools which will help you analyse a site completely and will give you as much information as you need about the specific website. So here is the list of tools :

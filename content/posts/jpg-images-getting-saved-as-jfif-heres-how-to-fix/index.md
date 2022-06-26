@@ -1,9 +1,10 @@
 ---
 title: "JPG images getting saved as JFIF? Here's how to fix."
 date: "2020-02-24"
-categories: 
+category: 
   - "useful-tips"
 summary: Learn how to download JPEG images instead of JFIF from webpages.
+slug: jpg-images-getting-saved-as-jfif-heres-how-to-fix
 ---
 
 Recently I came across an annoying issue whenever I tried saving a .jpg file from the web. It always ended up getting saved as .jfif. JFIF is an image format for exchanging JPEG encoded files. JFIF files should open normally in all popular image editors and if it doesn't, you can always rename files from .jfif to .jpg. The reason this has started happening is because of Windows 10 Creators Update. I am not sure what was Microsoft thinking that saving all .jpg files in a non-standard format is the way to go. Anyway, there is a simple registry fix for that.

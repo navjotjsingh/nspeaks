@@ -1,11 +1,12 @@
 ---
 title: "Google Chrome on Windows 2000/2k? Works with my method"
 date: "2008-09-07"
-categories: 
+category: 
   - "technology"
-tags:
+tag:
   - "google-chrome"
 summary: Learn how to use Google Chrome Browser on a Windows 2000 Machine (Does not work anymore).
+slug: google-chrome-on-windows-20002k-works-with-my-method
 ---
 
 **Disclaimer (2022):** This method does not work anymore. This post is just for informational purpose. Microsoft has taken down all the patches and it is not safe anymore for you to be using Windows 2000 anymore.

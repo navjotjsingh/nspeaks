@@ -1,11 +1,12 @@
 ---
 title: "List fonts used in a PSD file"
 date: "2007-09-16"
-categories: 
+category: 
   - "useful-tips"
-tags:
+tag:
   - "photoshop"
 summary: Find the list of fonts used in a Adobe PSD file.
+slug: list-fonts-used-in-a-psd-file
 ---
 
 The common problem I face whenever I buy new designs is that sometimes I need to know all the fonts used to make the PSD file. Sometimes Photoshop popups an ugly message saying some fonts are missing and it has no inbuilt method to tell you which font was used. So how to tell which fonts are needed?

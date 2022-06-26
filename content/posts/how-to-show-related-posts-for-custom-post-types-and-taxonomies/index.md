@@ -1,9 +1,10 @@
 ---
 title: "How to Show Related Posts for Custom Post Types and Taxonomies"
 date: "2011-03-02"
-categories: 
+category: 
   - "wordpress"
 summary: Add support for related posts on custom post types and taxonomies.
+slug: how-to-show-related-posts-for-custom-post-types-and-taxonomies
 ---
 
 **Update:** Yet Another Related Posts Plugin supports custom post types and taxonomies while Better Related Posts plugin is outdated.

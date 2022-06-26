@@ -1,9 +1,10 @@
 ---
 title: "Add Page Templates Column to Edit Pages Screen"
 date: "2012-06-20"
-categories: 
+category: 
   - "wordpress"
 summary: Add Theme page template column to Edit Page screen in WordPress.
+slug: add-page-templates-column-edit-pages-screen
 ---
 
 Recently someone asked this question over at [WPQuestions](https://wpquestions.com/question/showLoggedIn/id/4130). I thought its nice to write about it as well as this is a nice addition some of you might like to have. Its cumbersome everytime to check each page individually just to check which template they are using. There are two ways of achieving this:

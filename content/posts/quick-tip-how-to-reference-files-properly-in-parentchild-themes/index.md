@@ -1,9 +1,10 @@
 ---
 title: "How to reference files properly in parent/child themes?"
 date: "2013-06-13"
-categories: 
+category: 
   - "wordpress"
 summary: Learn how to refer to files properly in parent and child WordPress themes.
+slug: quick-tip-how-to-reference-files-properly-in-parentchild-themes
 ---
 
 Child theme is arguably the best thing that happened to WordPress themes. But still I see many people who create a child theme incorrectly use wordpress functions to refer to the images and stylesheets which result in broken urls. WordPress provides four functions to refer to the different files inside parent and child themes: [get\_template\_directory()](http://codex.wordpress.org/Function_Reference/get_template_directory), [get\_template\_directory\_uri()](http://codex.wordpress.org/Function_Reference/get_template_directory_uri), [get\_stylesheet\_directory()](http://codex.wordpress.org/Function_Reference/get_stylesheet_directory) and [get\_stylesheet\_directory\_uri()](http://codex.wordpress.org/Function_Reference/get_stylesheet_directory_uri).

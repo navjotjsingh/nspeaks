@@ -1,9 +1,10 @@
 ---
 title: "Category descriptions in Wordpress"
 date: "2009-01-20"
-categories: 
+category: 
   - "wordpress"
 summary: Learn more about Category descriptions in WordPress and how to use them.
+slug: category-descriptions-in-wordpress
 ---
 
 One thing which I have seen many bloggers missing completely (including me) is the category description field. Most of us create relevant categories but forget to fill the description field either due to ignorance or deliberately to save time. But this field can also be important both with respect to SEO and also user experience enhancing effect.

@@ -1,9 +1,10 @@
 ---
 title: "Add Custom Taxonomy Columns to Edit Posts Page"
 date: "2010-04-05"
-categories: 
+category: 
   - "wordpress"
 summary: Add Custom Columns to Edit WordPress Posts page showing custom taxonomies.
+slug: add-custom-taxonomy-columns-to-edit-posts-page
 ---
 
 Wordpress's Edit Posts Page pretty much shows the information you need to use. But with the inclusion of Custom Taxonomies from WordPress 2.8, it becomes difficult to check which posts are using which Taxonomies unless you edit each post manually. To make the job of editing custom taxonomies easy, it's better if we could see all our custom taxonomies on the Edit Posts page too. Well, there are several tutorials on the web that will tell you how to add custom columns to the Edit Posts Admin page but none tells you an exact method for adding the Custom Taxonomies column. Let me take a walkthrough of it.

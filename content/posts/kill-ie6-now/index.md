@@ -1,9 +1,10 @@
 ---
 title: "Kill IE6 Now"
 date: "2009-08-12"
-categories: 
+category: 
   - "internet"
 summary: It's time to Kill the IE6 browser. Learn how.
+slug: kill-ie6-now
 ---
 
 **Update**: I have removed a lot of broken links. Some of the sites are still insecure. Also, this is 2022. IE 6 is already dead.

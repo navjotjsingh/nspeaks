@@ -1,7 +1,7 @@
 ---
 title: "Does your browser support the new image format JPEG XL?"
 date: "2021-05-10"
-categories: 
+category: 
   - "technology"
 summary: Check if your browser supports the latest JPEG XL Image format.
 slug: jpeg-xl-browser-support

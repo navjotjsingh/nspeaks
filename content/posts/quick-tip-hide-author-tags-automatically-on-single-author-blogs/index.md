@@ -1,9 +1,10 @@
 ---
 title: "Quick Tip: Hide Author Tags automatically on Single author blogs"
 date: "2012-10-04"
-categories: 
+category: 
   - "wordpress"
 summary: Learn how to hide Author tags on a single author WordPress blog.
+slug: quick-tip-hide-author-tags-automatically-on-single-author-blogs
 ---
 
 Many themes now come up with elegant author information boxes beneath the single posts and multiple other enhancements so that authors get featured all across your blog. But what if you are using that theme on your personal blog or a blog with only one author. Listing author information then repeatedly doesn't look good and is more of a repetition. 

@@ -1,9 +1,10 @@
 ---
 title: "How to stop Windows 10 from forcing Edge and Bing"
 date: "2021-07-24"
-categories: 
+category: 
   - "useful-tips"
 summary: Stop Windows 10 from taking your choice of search engine, and browser.
+slug: how-to-stop-windows-10-from-forcing-edge-and-bing
 ---
 
 Before moving ahead with the article, one thing you should know. Never try to remove or disable the Microsoft Edge browser. Doing so can cause a number of issues because it is so deeply embedded into the OS, that things might stop working and the system can become unstable.

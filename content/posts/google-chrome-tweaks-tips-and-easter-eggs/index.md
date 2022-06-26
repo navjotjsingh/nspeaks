@@ -1,11 +1,12 @@
 ---
 title: "Google Chrome Tweaks, Tips and Easter Eggs"
 date: "2008-09-04"
-categories: 
+category: 
   - "useful-tips"
-tags: 
+tag: 
   - "google-chrome"
 summary: List of Google Chrome Tips, Tweaks, and Easter eggs.
+slug: google-chrome-tweaks-tips-and-easter-eggs
 ---
 
 Now that its almost 2 days since Chrome launched, you must be making comparisons with existing features and looking for Chrome features in firefox and vice versa too. Also you would love to know about any tips, tweaks or even easter eggs for Chrome for that matter.

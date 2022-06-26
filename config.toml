@@ -97,9 +97,9 @@ weight = 2
 #weight = 5
 
 [[menu.main]]
-identifier = "categories"
+identifier = "category"
 name = "Categories"
-url = "/categories/"
+url = "/category/"
 weight = 10
 
 [[menu.main]]
@@ -109,9 +109,9 @@ url = "/search/"
 weight = 10
 
 [[menu.main]]
-identifier = "tags"
+identifier = "tag"
 name = "Tags"
-url = "/tags/"
+url = "/tag/"
 weight = 20
 
 [[menu.main]]

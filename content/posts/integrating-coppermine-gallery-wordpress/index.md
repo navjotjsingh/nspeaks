@@ -1,9 +1,10 @@
 ---
 title: "Integrating Coppermine Gallery with your Wordpress"
 date: "2009-05-25"
-categories: 
+category: 
   - "wordpress"
 summary: Learn how to integrate Coppermine Photo Gallery with your WordPress blog.
+slug: integrating-coppermine-gallery-wordpress
 ---
 
 **Updated 25 June, 2022** - This trick may or may not work with current versions of Coppermine and WordPress. I won't be able to help since I don't use any of these softwares. Sorry.

@@ -1,9 +1,10 @@
 ---
 title: "Parse Shortcodes in your Custom Fields"
 date: "2010-01-11"
-categories: 
+category: 
   - "wordpress"
 summary: Parse shortcodes in your Custom Fields inside WordPress posts.
+slug: insert-shortcodes-into-your-custom-fields
 ---
 
 [Shortcodes](https://codex.wordpress.org/Shortcode_API) and [Custom Fields](https://wordpress.org/support/article/custom-fields/) are two very powerful features of WordPress which allow you to insert any custom content anywhere on your site. But in certain cases, you may need to insert a shortcode into your Custom field. This can happen if a plugin you use only offers shortcodes but you need to insert that shortcode only on a certain portion of the theme (e.g. `single.php`).

@@ -1,9 +1,10 @@
 ---
 title: "Welcome Hugo"
 date: 2022-06-25T02:59:31+05:30
-categories:
+category:
   - "nspeaks"
 summary: I have finally ported my blog from WordPress to Hugo
+slug: welcome-hugo
 ---
 
 After trying to blog for 15 years using WordPress, I feel it is time to try a different platform. Though this is not the first time I have tried something different. In the past, I have used [Ghost](https://ghost.org/ "Ghost Blogging Platform") and [Hexo](https://hexo.io/ "Hexo Static Site Generator"). While both of them have their own benefits, I wanted to try something new.

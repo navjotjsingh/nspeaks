@@ -1,9 +1,10 @@
 ---
 title: "Twitter finally allows downloading of tweets"
 date: "2012-12-16"
-categories: 
+category: 
   - "internet"
 summary: You can finally download all your tweets from Twitter.
+slug: twitter-finally-allows-downloading-of-tweets
 ---
 
 Yes! The moment which you have been waiting for is finally available. Twitter has enabled the option to download all your tweets in a calendar type archive. The option is working only for few accounts at the moment. Seems it will be rolled out gradually. Go to your settings page and check if you see something like the following

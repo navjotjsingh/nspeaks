@@ -1,9 +1,10 @@
 ---
 title: "How to Access your Localhost Servers from anywhere"
 date: "2019-03-20"
-categories: 
+category: 
   - "useful-tips"
 summary: How to make your Localhost Server public on the Internet.
+slug: how-to-access-your-localhost-servers-from-anywhere
 ---
 
 Developing Apps and Sites for Clients on Localhost is easy. But the next step i.e. showing the clients what you did can be painful. It involves uploading all the work to your server and then modifying the urls so that everything works perfectly.

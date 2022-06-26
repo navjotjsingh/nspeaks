@@ -1,9 +1,10 @@
 ---
 title: "Custom Post Types on Homepage - Correct way"
 date: "2012-10-06"
-categories: 
+category: 
   - "wordpress"
 summary: Learn how to show Custom Post Types on your WordPress site's homepage.
+slug: custom-post-types-on-homepage-correct-way
 ---
 
 There are numerous tutorials on the web about showing Custom Post types on Homepage. Wordpress by default shows only Posts on the homepage. Custom Post types are not automatically shown on the homepage or the feed. Now while searching for the method you must have seen the following code everywhere:

@@ -1,13 +1,14 @@
 ---
 title: "How to Install and Use Plex Media Server on Ubuntu 18.04"
 date: "2019-08-26"
-categories: 
+category: 
   - "tutorials"
-tags: 
+tag: 
   - "linux"
   - "plex-media-server"
   - "ubuntu"
 summary: Install Plex Media Server on Ubuntu for all your movie and music streaming needs.
+slug: how-to-install-and-use-plex-media-server-on-ubuntu-18-04
 ---
 
 ## Introduction

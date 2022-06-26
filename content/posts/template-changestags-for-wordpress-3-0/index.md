@@ -1,7 +1,7 @@
 ---
 title: "Template Changes/Tags for Wordpress 3.0"
 date: "2010-06-02"
-categories: 
+category: 
   - "wordpress"
 summary: Learn about all the Template changes coming with WordPress 3.0 release.
 slug: template-changestags-for-wordpress-3-0

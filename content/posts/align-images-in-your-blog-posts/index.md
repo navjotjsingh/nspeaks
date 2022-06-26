@@ -1,9 +1,10 @@
 ---
 title: "Align Images in your Blog posts"
 date: "2007-09-17"
-categories: 
+category: 
   - "wordpress"
 summary: Correctly align images in your WordPress posts.
+slug: align-images-in-your-blog-posts
 ---
 
 If you find aligning images in your blog posts difficult and you can't line up your text alongside smaller logos or images, you should continue reading.

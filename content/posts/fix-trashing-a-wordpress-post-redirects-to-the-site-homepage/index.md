@@ -1,9 +1,10 @@
 ---
 title: "[Fix] Trashing a WordPress post redirects to the Site homepage"
 date: "2021-01-25"
-categories: 
+category: 
   - "wordpress"
 summary: Fix WordPress's post trashing redirection bug.
+slug: fix-trashing-a-wordpress-post-redirects-to-the-site-homepage
 ---
 
 For a very long time, I have been facing this issue where whenever I trash any post from the WordPress dashboard, instead of redirecting me to the same post page, I always end up getting redirected to the site's homepage. It is not a bug which breaks anything or causes any world-ending issue but it was annoying as hell. For months, I was ignoring it since I only delete a handful of posts or old drafts.

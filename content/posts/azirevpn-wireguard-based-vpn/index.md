@@ -1,15 +1,16 @@
 ---
 title: "AzireVPN - Wireguard based VPN"
 date: "2019-11-29"
-categories: 
+category: 
   - "deals"
-tags: 
+tag: 
   - "vpn"
 cover:
     image: "images/azirevpn.png"
     alt: "AzireVPN Logo"
     relative: true
 summary: One of the fastest Wireguard based VPNs.
+slug: azirevpn-wireguard-based-vpn
 ---
 
 *This post contains affiliate links through which I make money.*
