@@ -10,6 +10,7 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
+disableHugoGeneratorInject = true
 
 [minify]
 disableXML = true
@@ -67,7 +68,7 @@ enableInlineShortcodes = true
 
   [[params.socialIcons]]
   name = "twitter"
-  url = "https://twitter.com/nspeaks_dev"
+  url = "https://twitter.com/navjotdev"
 
   [[params.socialIcons]]
   name = "stackoverflow"
