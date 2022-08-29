@@ -2,11 +2,10 @@
 title: "Service Recommendations"
 url: "/ref/"
 date: 2022-07-17T06:21:35+05:30
-draft: true
 disableShare: true
 ---
 
-If you like my work and want to support me, you can do so by using the referral links to stuff listed here. I will receive payments if you use my links. You are free to not use my links if you feel so. 
+If you like my work and want to support me, you can do so by using the referral links to stuff listed here. I will receive payments if you use my links. You are free to not use my links if you feel so.
 
 I will never recommend anything that I have not used or love.
 
