@@ -1,7 +1,8 @@
 ---
 title: "JPG images getting saved as JFIF? Here's how to fix."
 date: "2020-02-24"
-category: 
+showToc: false
+category:
   - "useful-tips"
 summary: Learn how to download JPEG images instead of JFIF from webpages.
 slug: jpg-images-getting-saved-as-jfif-heres-how-to-fix

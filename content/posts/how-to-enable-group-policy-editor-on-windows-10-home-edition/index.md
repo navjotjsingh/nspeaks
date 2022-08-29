@@ -6,7 +6,7 @@ category:
 tag: 
   - "windows 10"
 cover: 
-  image: "images/2015-08-15_14-20-57.png"
+  image: "images/win10-home-group-policy-editor.png"
 summary: Learn how to enable Group Policy Editor on Windows 10 Home Desktop.
 slug: how-to-enable-group-policy-editor-on-windows-10-home-edition
 ---

@@ -64,7 +64,7 @@ enableInlineShortcodes = true
 
   [params.homeInfoParams]
   Title = "Hi there 👋"
-  Content = "Welcome to my professional space where I share tutorials on Linux, and Server Administration. I may on occassion share random useful tips from any topic that I find of interest. You can reach me on any of my socials below or you can contact me at <a href='mailto:navjot@nspeaks.com'>navjot@nspeaks.com</a>."
+  Content = "Welcome to my professional space where I share tutorials on Linux, and Server Administration. I may on occassion share random useful tips from any topic that I find of interest. You can reach me on any of my socials below or you can contact me at <a href='mailto:navjot@nspeaks.com'>navjot@nspeaks.com</a>. I maintain a <a href='https://diary.nspeaks.com' title='Personal Blog'>personal blog</a> as well where I post random stuff and talk about movies and shows."
 
   [[params.socialIcons]]
   name = "twitter"
@@ -92,10 +92,10 @@ name = "About Me"
 url = "about/"
 weight = 2
 
-#[[menu.main]]
-#name = "Archives"
-#url = "archives/"
-#weight = 5
+[[menu.main]]
+name = "Recommendations"
+url = "ref/"
+weight = 5
 
 [[menu.main]]
 identifier = "category"
@@ -115,17 +115,17 @@ name = "Tags"
 url = "/tag/"
 weight = 20
 
-[[menu.main]]
-identifier = "diary"
-name = "Personal Blog"
-url = "https://diary.nspeaks.com"
-weight = 30
+#[[menu.main]]
+#identifier = "diary"
+#name = "Personal Blog"
+#url = "https://diary.nspeaks.com"
+#weight = 30
 
 [sitemap]
   changefreq = 'monthly'
   filename = 'sitemap.xml'
   priority = 0.5
-  
+
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
@@ -143,6 +143,6 @@ home = [ "HTML", "RSS", "JSON" ]
     noHl = false
     style = 'solarized-dark'
     tabWidth = 4
-  
+
   [markup.goldmark.renderer]
     unsafe = true

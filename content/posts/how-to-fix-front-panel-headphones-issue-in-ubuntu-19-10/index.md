@@ -22,7 +22,7 @@ $ alsamixer
 
 You will see a GUI window inside your Terminal which will look like this.
 
-![AlsaMixer GUI Terminal Window](images/Screenshot-from-2019-11-28-12-26-53.png#center)
+![AlsaMixer GUI Terminal Window](images/alsamixer-terminal-gui.png#center)
 
 You can see the Headphone volume as zero. To adjust it, press the right arrow key to bring the cursor on the Headphone. Press M to unmute it and press the Up arrow key to increase the volume. When you have maxed out the headphone volume, press the Escape key to exit the tool.
 
