@@ -15,9 +15,7 @@ I will never recommend anything that I have not used or love.
 
 2. [Vultr](https://www.vultr.com/?ref=8979038-8H) - Get $100 in credit to use over 14 days. Need valid Credit card or Paypal account to avail the offer. Or [double your credit deposit up to $100 when you open a new Vultr account.](https://www.vultr.com/match/?ref=6816937)
 
-3. [Atlantic VPN](https://cloud.atlantic.net/r/d93mkn1q) - Get Free VPS (1VCPU, 2GB RAM, 50GB SSD, 3TB Transfer), 50 GB Block Storage, and 50 GB Snapshots free for 1 year.
-
-4. [Cloudways](https://www.cloudways.com/en/?id=56611) Managed VPS hosting for WordPress and PHP projects. It works as a control panel with popular Cloud VPS hosts.
+3. [Cloudways](https://www.cloudways.com/en/?id=56611) Managed VPS hosting for WordPress and PHP projects. It works as a control panel with popular Cloud VPS hosts.
 
 ## Serverless Platforms
 
