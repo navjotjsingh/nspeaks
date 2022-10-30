@@ -78,6 +78,10 @@ enableInlineShortcodes = true
   name = "github"
   url = "https://github.com/navjotjsingh"
 
+  [[params.socialIcons]]
+  name = "mastodon"
+  url = "https://mastodon.social/@nspeaks"
+
   [params.fuseOpts]
   isCaseSensitive = false
   shouldSort = true
