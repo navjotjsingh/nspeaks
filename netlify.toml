@@ -2,7 +2,19 @@
 HUGO_VERSION = "0.101.0"
 
 [[redirects]]
-from = "/*/:slug/"
+  from = "https://nspeaks.com/348/google-chrome-on-windows-2000-works-with-my-method/"
+  to = "https://nspeaks.com/google-chrome-on-windows-20002k-works-with-my-method/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://nspeaks.com/wp-content/uploads/2008/09/chrome2k.zip"
+  to = "https://nspeaks.com/download/crm2k70.cab"
+  status = 301
+  force = true
+
+[[redirects]]
+from = "/*/:slug"
 to = "/:slug/"
 status = 301
 force = false
