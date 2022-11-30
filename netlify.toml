@@ -2,7 +2,7 @@
 HUGO_VERSION = "0.101.0"
 
 [[redirects]]
-from = "/:slug/*"
-to = "/ :splat/"
+from = "/*/:slug/"
+to = "/:slug/"
 status = 301
 force = false
