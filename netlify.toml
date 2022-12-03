@@ -1,5 +1,5 @@
 [context.production.environment]
-HUGO_VERSION = "0.101.0"
+HUGO_VERSION = "0.107.0"
 
 [[redirects]]
   from = "https://nspeaks.com/348/google-chrome-on-windows-2000-works-with-my-method/"
@@ -18,3 +18,9 @@ from = "/*/:slug/"
 to = "/:slug/"
 status = 301
 force = false
+
+[[redirects]]
+from = "/cloudways"
+to = "https://www.cloudways.com/en/?id=56611"
+status = 301
+force = true
