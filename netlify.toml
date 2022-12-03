@@ -2,6 +2,12 @@
 HUGO_VERSION = "0.107.0"
 
 [[redirects]]
+from = "/cloudways"
+to = "https://www.cloudways.com/en/?id=56611"
+status = 301
+force = true
+
+[[redirects]]
   from = "https://nspeaks.com/348/google-chrome-on-windows-2000-works-with-my-method/"
   to = "https://nspeaks.com/google-chrome-on-windows-20002k-works-with-my-method/"
   status = 301
@@ -18,9 +24,3 @@ from = "/*/:slug/"
 to = "/:slug/"
 status = 301
 force = false
-
-[[redirects]]
-from = "/cloudways"
-to = "https://www.cloudways.com/en/?id=56611"
-status = 301
-force = true
