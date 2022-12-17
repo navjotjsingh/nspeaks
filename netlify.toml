@@ -24,3 +24,15 @@ from = "/*/:slug/"
 to = "/:slug/"
 status = 301
 force = false
+
+[[redirects]]
+from ="/masto"
+to = "https://mastodon.social/@nspeaks"
+status = 301
+force = false
+
+[[redirects]]
+from ="/foss"
+to = "https://fosstodon.org/@navjot"
+status = 301
+force = false
