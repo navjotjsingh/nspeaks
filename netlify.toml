@@ -20,12 +20,6 @@ force = true
   force = true
 
 [[redirects]]
-from = "/*/:slug/"
-to = "/:slug/"
-status = 301
-force = false
-
-[[redirects]]
 from ="/masto"
 to = "https://mastodon.social/@nspeaks"
 status = 301
@@ -36,3 +30,27 @@ from ="/foss"
 to = "https://fosstodon.org/@navjot"
 status = 301
 force = false
+
+[[redirects]]
+  from = "https://nspeaks.com/1014/template-changestags-for-wordpress-3-0/"
+  to = "https://nspeaks.com/template-changestags-for-wordpress-3-0/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://nspeaks.com/699/kill-ie6-now/"
+  to = "https://nspeaks.com/kill-ie6-now/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://nspeaks.com/1069/difference-between-is_home-and-is_front_page/"
+  to = "https://nspeaks.com/difference-between-is_home-and-is_front_page/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://nspeaks.com/978/insert-shortcodes-into-your-custom-fields/"
+  to = "https://nspeaks.com/insert-shortcodes-into-your-custom-fields/"
+  status = 301
+  force = true
