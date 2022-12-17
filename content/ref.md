@@ -11,9 +11,9 @@ I will never recommend anything that I have not used or love.
 
 ## VPS Hosting
 
-1. [DigitalOcean](https://www.digitalocean.com/?refcode=574d284bdcd2&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste) - Get $100 in credit to use over 60 days.
+1. [DigitalOcean](https://www.digitalocean.com/?refcode=574d284bdcd2&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste) - Get $200 in credit to use over 60 days.
 
-2. [Vultr](https://www.vultr.com/?ref=8979038-8H) - Get $100 in credit to use over 14 days. Need valid Credit card or Paypal account to avail the offer. Or [double your credit deposit up to $100 when you open a new Vultr account.](https://www.vultr.com/match/?ref=6816937)
+2. [Vultr](https://www.vultr.com/?ref=8979038-8H) - Get $100 in credit to use over 14 days. Need valid Credit card or Paypal account to avail the offer.
 
 3. [Cloudways](https://nspeaks.com/cloudways) Managed VPS hosting for WordPress and PHP projects. It works as a control panel with popular Cloud VPS hosts.
 
