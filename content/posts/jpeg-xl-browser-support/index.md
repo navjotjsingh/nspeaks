@@ -29,7 +29,7 @@ You can read more about JPEG XL at
 
 ## Which browsers support JPEG XL?
 
-As of [17 December 2022](https://caniuse.com/jpegxl), Firefox Beta 90+, Edge Stable 91+, Opera 77+, Brave 1.27.111+, and Vivaldi 4.1.2369.16 support the JPEG XL format. Google [removed support for JPEG-XL with v110](https://bugs.chromium.org/p/chromium/issues/detail?id=1178058#c84). You can still enable use JPEG-XL in Chrome versions 91-109.
+As of [17 December 2022](https://caniuse.com/jpegxl), Firefox Beta 90+, Edge Stable 91+, Opera 77+, Brave 1.27.111+, and Vivaldi 4.1.2369.16 support the JPEG XL format. [Google removed support for JPEG-XL](https://bugs.chromium.org/p/chromium/issues/detail?id=1178058#c84) with v110. You can still enable use JPEG-XL in Chrome versions 91-109.
 
 To enable JPEG XL format in Chrome versions v91-109, open Chrome flags ( chrome://flags ) settings page and enable the option **Enable JXL image format** ( [chrome://flags/#enable-jxl](chrome://flags/#enable-jxl)).
 
