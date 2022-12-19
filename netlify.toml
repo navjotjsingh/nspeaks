@@ -23,13 +23,13 @@ force = true
 from ="/masto"
 to = "https://mastodon.social/@nspeaks"
 status = 301
-force = false
+force = true
 
 [[redirects]]
 from ="/foss"
 to = "https://fosstodon.org/@navjot"
 status = 301
-force = false
+force = true
 
 [[redirects]]
   from = "https://nspeaks.com/1014/template-changestags-for-wordpress-3-0/"
