@@ -12,11 +12,15 @@ tag:
 
 MongoDB belongs to a family of NoSQL databases. It is a collection of JSON-like documents with no predefined schema. You can alter schema at any time and as often you like.
 
-Ubuntu 22.04 was released in April 2022 and it has been 4 months since it's release and we still don't have an official release of MongoDB for the it. The issue is that MongoDB depends on LibSSL 1.1 which was dropped in the latest Ubuntu LTS release.
+~~Ubuntu 22.04 was released in April 2022 and it has been 4 months since it's release and we still don't have an official release of MongoDB for the it. The issue is that MongoDB depends on LibSSL 1.1 which was dropped in the latest Ubuntu LTS release.~~
 
-You can check the progress of MongoDB's official [Ubuntu 22.04 release via the official issues page](https://jira.mongodb.org/browse/SERVER-62300). I will update this article once the official release is available.
+~~You can check the progress of MongoDB's official [Ubuntu 22.04 release via the official issues page](https://jira.mongodb.org/browse/SERVER-62300). I will update this article once the official release is available.~~
 
-There are several workarounds to install it on Ubuntu 22.04 and we will discuss all of them.
+~~There are several workarounds to install it on Ubuntu 22.04 and we will discuss all of them.~~
+
+MongoDB 6.0.3+ supports Ubuntu 22.04. The official documentation is still not updated though.
+
+I have removed the workaround method and replaced it with the official method. You can install either using Docker or the official repository.
 
 ## MongoDB 4.4 vs 5.0/6.0
 
@@ -73,23 +77,9 @@ To connect to the MongoDB shell, use the following command.
 sudo docker exec -it local-mongo sh
 ```
 
-## Install MongoDB using a workaround
+## Install MongoDB using the official repository
 
-**Note**: This method is not recommended for production environments. Hopefully, the official package should be out in a few days.
-
-If you don't want to use Docker, there is another method. This method involves using the official MongoDB repository for an older Ubuntu release along with manual installation of the libssl1.1 package.
-
-Download the libssl1.1 library.
-
-```bash
-wget http://security.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
-```
-
-Install the package.
-
-```bash
-sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
-```
+If you don't want to use Docker, there is another method. This method involves using the official MongoDB repository.
 
 Grab the MongoDB's GPG key and add it your system.
 
@@ -97,10 +87,10 @@ Grab the MongoDB's GPG key and add it your system.
 wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo gpg --dearmor -o /usr/share/keyrings/mongo.gpg
 ```
 
-Create the repository file for MongoDB. For our workaround, we will use the repository for Ubuntu 20.04(focal) release.
+Create the repository file for MongoDB.
 
 ```bash
-echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongo.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongo.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
 For MongoDB 5.0 and 4.4 versions, replace 6.0 in the above commands with 5.0 and 4.4.
