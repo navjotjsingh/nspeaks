@@ -2,6 +2,7 @@
 title: "Install Mongodb in Ubuntu 22.04"
 date: 2022-08-28T14:01:23+05:30
 description: How to Install MongoDB in Ubuntu 22.04 system.
+summary: How to Install MongoDB on Ubuntu 22.04 using official methods
 category:
     - linux
     - tutorials
@@ -108,6 +109,5 @@ This concludes our tutorial on installing MongoDB on a Ubuntu 22.04 machine. To 
 
 - [MongoDB Documentation](https://www.mongodb.com/docs/)
 - [MongoDB Docker Hub](https://hub.docker.com/_/mongo)
-- [MongoDB Ubuntu 22.04 Support Tickets](https://jira.mongodb.org/browse/CDRIVER-4433)
 - [MongoDB CPU Platform Support](https://www.mongodb.com/docs/manual/administration/production-notes/#platform-support-notes)
 - [MongoDB Official Package Install Instructions](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
