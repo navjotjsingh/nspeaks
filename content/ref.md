@@ -15,7 +15,9 @@ I will never recommend anything that I have not used or love.
 
 2. [Vultr](https://www.vultr.com/?ref=8979038-8H) - Get $100 in credit to use over 14 days. Need valid Credit card or Paypal account to avail the offer.
 
-3. [Cloudways](https://nspeaks.com/cloudways) Managed VPS hosting for WordPress and PHP projects. It works as a control panel with popular Cloud VPS hosts.
+3. [Cloudways](https://nspeaks.com/cloudways) - Managed VPS hosting for WordPress and PHP projects. It works as a control panel with popular Cloud VPS hosts.
+
+4. [Kinsta Application Hosting](https://kinsta.com/application-hosting/?kaid=HJNYGYNKHEXF) - Get $20 off for the first month.
 
 ## Serverless Platforms
 
