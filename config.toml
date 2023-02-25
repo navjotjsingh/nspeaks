@@ -22,6 +22,7 @@ posts = '/:slug'
 [taxonomies]
 category = 'category'
 tag = 'tag'
+series = "series"
 
 [params]
 env = "production"
@@ -68,7 +69,7 @@ enableInlineShortcodes = true
 
   [[params.socialIcons]]
   name = "twitter"
-  url = "https://twitter.com/navjotdev"
+  url = "https://twitter.com/nspeaks"
 
   [[params.socialIcons]]
   name = "stackoverflow"
