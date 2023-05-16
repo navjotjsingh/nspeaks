@@ -13,9 +13,7 @@ Our website address is `https://nspeaks.com`. The site is run by Navjot Singh, a
 
 ### Analytics
 
-We use the [Plausible analytics](https://plausible.io/privacy-focused-web-analytics) tool, which collects data anonymously and doesn’t place any cookies or tracking information on your computer. No IP addresses are collected in this case. Since we use their self-hosted tool, the statistics collected are stored on our server and are not shared with anyone.
-
-You can learn more about the [data that is collected by Plausible](https://plausible.io/data-policy).
+We use the [Umami analytics](https://umami.is/) tool, which collects data anonymously and doesn’t place any cookies or tracking information on your computer. No IP addresses are collected in this case. Since we use their self-hosted tool, the statistics collected are stored on our server and are not shared with anyone.
 
 ### Affiliate Links
 
@@ -43,4 +41,4 @@ Continued use of our site signifies your acceptance of this policy. If you do no
 
 We may make changes to this policy at any time. You may be asked to review and re-accept the information in this policy if it changes in the future.
 
-**Last Updated:** 18 August 2021
+**Last Updated:** 16 May 2023
