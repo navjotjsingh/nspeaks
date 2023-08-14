@@ -13,7 +13,7 @@ tag:
 
 MongoDB belongs to a family of NoSQL databases. It is a collection of JSON-like documents with no predefined schema. You can alter schema at any time and as often you like.
 
-~~Ubuntu 22.04 was released in April 2022 and it has been 4 months since it's release and we still don't have an official release of MongoDB for the it. The issue is that MongoDB depends on LibSSL 1.1 which was dropped in the latest Ubuntu LTS release.~~
+~~Ubuntu 22.04 was released in April 2022 and it has been 4 months since it's release and we still don't have an official release of MongoDB for it. The issue is that MongoDB depends on LibSSL 1.1 which was dropped in the latest Ubuntu LTS release.~~
 
 ~~You can check the progress of MongoDB's official [Ubuntu 22.04 release via the official issues page](https://jira.mongodb.org/browse/SERVER-62300). I will update this article once the official release is available.~~
 
