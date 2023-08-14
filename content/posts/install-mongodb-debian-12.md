@@ -21,12 +21,18 @@ Till the official package is available, we will have to use workarounds to get a
 
 This is probably the simplest way to get MongoDB up and running on your machine without using any workarounds. Also, even when Debian 12 is officially supported, Docker method will be the only way to install an older version(<7.0) of MongoDB.
 
-The first step is to install Docker. Refer to the [official Docker documentation](https://docs.docker.com/engine/install/) for the instructions.
+The first step is to install Docker. Refer to the [official Docker documentation](https://docs.docker.com/engine/install/) for the instructions. Run the following command post installation to add your system user to the `dockers` group. This way you won't have to use `sudo` with your docker commands.
+
+```bash
+sudo usermod -aG docker ${USER}
+```
+
+Log out and log back in for the change to take affect.
 
 Run the following command to start the MongoDB's docker container using the latest version.
 
 ```bash
-sudo docker run -dp 27017:27017 -v local-mongo:/data/db --name local-mongo --restart=always mongo:latest
+docker run -dp 27017:27017 -v local-mongo:/data/db --name local-mongo --restart=always mongo:latest
 ```
 
 Check the status of the running container.
@@ -39,13 +45,13 @@ adca52fdf919   mongo:latest   "docker-entrypoint.s…"   43 seconds ago   Up 42 
 If you want to use v4.4 of MongoDB, use the following command instead.
 
 ```bash
-sudo docker run -dp 27017:27017 -v local-mongo:/data/db --name local-mongo --restart=always mongo:4.4
+docker run -dp 27017:27017 -v local-mongo:/data/db --name local-mongo --restart=always mongo:4.4
 ```
 
 To connect to the MongoDB shell, use the following command.
 
 ```bash
-sudo docker exec -it local-mongo bash
+docker exec -it local-mongo bash
 ```
 
 To check the container logs, use the following command. The `-follow` argument allows you to watch the logs in real-time. Press **Ctrl+C** to return to the terminal.
@@ -108,7 +114,8 @@ curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
 Create the MongoDB repository file. We will use Debian 11(bullseye) release for the repository.
 
 ```bash
-echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mongodb.org/apt/debian bullseye/mongodb-org/6.0 main" | \ sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mongodb.org/apt/debian bullseye/mongodb-org/6.0 main" | \
+   sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
 For 7.0 and 5.0 versions, replace 6.0 in the above commands with 7.0 and 5.0.
@@ -118,6 +125,12 @@ Install MongoDB server.
 ```bash
 sudo apt update
 sudo apt install mongodb-org
+```
+
+Enable and start MongoDB server.
+
+```bash
+sudo systemctl enable mongod --now
 ```
 
 This concludes our tutorial on installing MongoDB on a Debian 12 machine. To find out more, go through the following resources.
