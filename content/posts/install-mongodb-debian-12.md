@@ -35,7 +35,7 @@ Run the following command to start the MongoDB's docker container using the late
 docker run -dp 27017:27017 -v local-mongo:/data/db --name local-mongo --restart=always mongo:latest
 ```
 
-Check the status of the running container.
+Check the status of the running container by running `docker ps`.
 
 ```bash
 CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                                           NAMES
@@ -48,7 +48,7 @@ If you want to use v4.4 of MongoDB, use the following command instead.
 docker run -dp 27017:27017 -v local-mongo:/data/db --name local-mongo --restart=always mongo:4.4
 ```
 
-To connect to the MongoDB shell, use the following command.
+To connect to the MongoDB container, use the following command.
 
 ```bash
 docker exec -it local-mongo bash
