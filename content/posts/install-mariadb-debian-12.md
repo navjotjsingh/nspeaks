@@ -19,7 +19,7 @@ sudo apt install mariadb-server
 
 This will install MariaDB v10.11.3 which is fine for the most part. However, you can't choose a different version of your choice should you desire.
 
-MariaDB hasn't released updated packages for Debian 12 so the only way to get around the limitation is to use Docker to install MariaDB.
+MariaDB has released official packages for Debian 12 but only for versions 10.11 and 11.0. To get the flexibility of installing an older version, you need to use Docker.
 
 ## Install MariaDB using Docker
 
