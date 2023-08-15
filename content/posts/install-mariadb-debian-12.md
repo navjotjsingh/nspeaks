@@ -21,6 +21,8 @@ This will install MariaDB v10.11.3 which is fine for the most part. However, you
 
 MariaDB hasn't released updated packages for Debian 12 so the only way to get around the limitation is to use Docker to install MariaDB.
 
+## Install MariaDB using Docker
+
 The first step is to install Docker. Refer to the [official Docker documentation](https://docs.docker.com/engine/install/) for the instructions. Run the following command post installation to add your system user to the `dockers` group. This way you won't have to use `sudo` with your docker commands.
 
 ```bash
