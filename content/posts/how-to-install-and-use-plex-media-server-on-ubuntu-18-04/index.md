@@ -1,10 +1,9 @@
 ---
 title: "How to Install and Use Plex Media Server on Ubuntu 18.04"
 date: "2019-08-26"
-category: 
+category:
   - "tutorials"
-tag: 
-  - "linux"
+tag:
   - "plex-media-server"
   - "ubuntu"
 summary: Install Plex Media Server on Ubuntu for all your movie and music streaming needs.
@@ -65,8 +64,8 @@ Plex is a media server that allows you to stream your digital content from anywh
     plexmediaserver.service - Plex Media Server
     Loaded: loaded (/lib/systemd/system/plexmediaserver.service; enabled; vendor preset: enabled)
     Active: active (running) since Tue 2019-06-18 11:37:14 UTC; 17min ago
-    Process: 13775 ExecStartPre=/bin/sh -c /usr/bin/test -d      
-    "${PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR}" || /bin/mkdir -p   
+    Process: 13775 ExecStartPre=/bin/sh -c /usr/bin/test -d
+    "${PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR}" || /bin/mkdir -p
     "${PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR}" (code=exited, status=0/SUCCESS)
     Main PID: 13782 (sh)
     Tasks: 129 (limit: 1152)
@@ -84,12 +83,12 @@ Plex Media Server requires certain ports to be open for it to work. We will be u
     title=Plex Media Server (Standard)
     description=The Plex Media Server
     ports=32400/tcp|3005/tcp|5353/udp|8324/tcp|32410:32414/udp
-    
+
     [plexmediaserver-dlna]
     title=Plex Media Server (DLNA)
     description=The Plex Media Server (additional DLNA capability only)
     ports=1900/udp|32469/tcp
-    
+
     [plexmediaserver-all]
     title=Plex Media Server (Standard + DLNA)
     description=The Plex Media Server (with additional DLNA capability)
@@ -118,7 +117,7 @@ Plex Media Server requires certain ports to be open for it to work. We will be u
 5. You would see something like this
 
     ```bash
-    
+
      To                        Action        From
      -- ------ ----
      OpenSSH                   ALLOW       Anywhere
