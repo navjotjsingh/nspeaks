@@ -1,10 +1,11 @@
 ---
 title: "How to delete all your photos in Google Photos"
 date: "2019-07-26"
-category: 
+category:
   - "useful-tips"
-tag: 
+tag:
   - "google-photos"
+  - javascript
 summary: How to batch delete all your Google Photos.
 slug: how-to-delete-your-photos-in-google-photos
 ---

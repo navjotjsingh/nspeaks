@@ -7,7 +7,7 @@ category:
     - linux
     - tutorials
 tag:
-    - ubuntu
+    - "ubuntu 22.04"
     - mongodb
 ---
 

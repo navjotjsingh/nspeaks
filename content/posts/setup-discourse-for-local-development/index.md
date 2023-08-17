@@ -1,8 +1,11 @@
 ---
 title: "Setup Discourse for Local Development"
 date: "2021-03-23"
-category: 
+category:
   - "tutorials"
+tag:
+  - discourse
+  - localhost
 summary: Learn how to install Discourse Forum software for Local development.
 slug: setup-discourse-for-local-development
 ---

@@ -1,10 +1,11 @@
 ---
 title: "Install Nginx, PHP 7.2, MariaDB on Windows"
 date: "2018-08-19"
-category: 
+category:
   - "tutorials"
 tag:
   - "lemp"
+  - windows
 summary: How to Install Nginx, PHP, MariaDB (LEMP) on a Windows PC.
 slug: install-nginx-php-mariadb-windows
 ---
@@ -90,43 +91,43 @@ Now you can start the PHP service with the command `net start php`.
 
 Now that we have set up PHP, let's do a bit of a configuration so that PHP and Nginx can work together.
 
-First make a backup of _C:\\nginx\\conf\\nginx.conf_ file and then open it and uncomment the following lines. Also change the fastcgi\_param as indicated below. 
+First make a backup of _C:\\nginx\\conf\\nginx.conf_ file and then open it and uncomment the following lines. Also change the fastcgi\_param as indicated below.
 
 ```nginx
-location ~ .php$ 
-  { 
-    root html; 
-    fastcgi_pass 127.0.0.1:9999; 
-    fastcgi_index index.php; 
-    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name; 
-    include fastcgi_params; 
+location ~ .php$
+  {
+    root html;
+    fastcgi_pass 127.0.0.1:9999;
+    fastcgi_index index.php;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    include fastcgi_params;
   }
 ```
 
 Also, change the following line
 
 ```nginx
-location / 
-  { 
-    root html; index.html index.htm; 
+location /
+  {
+    root html; index.html index.htm;
   }
 ```
 
 to
 
 ```nginx
-location / 
-  { 
-    root html index.php index.html index.htm; 
+location /
+  {
+    root html index.php index.html index.htm;
   }
 ```
 
 If you are using .htaccess files, then uncomment the following lines as well.
 
 ```nginx
-location ~ /.ht 
-  { 
-    deny all; 
+location ~ /.ht
+  {
+    deny all;
   }
 ```
 
@@ -135,24 +136,24 @@ This will ensure that PHP code is loaded properly inside Nginx. root html means 
 Now we also need to make some adjustments to the php.ini file that we had saved earlier. Open _C:\\nginx\\php\\php.ini_ and scroll down to the Dynamic Extensions section and uncomment the following lines
 
 ```ini
-extension=bz2 
-extension=curl 
-extension=gd2 
-extension=gettext 
-extension=imap 
-extension=mbstring 
-extension=exif 
-extension=mysqli 
-extension=openssl 
+extension=bz2
+extension=curl
+extension=gd2
+extension=gettext
+extension=imap
+extension=mbstring
+extension=exif
+extension=mysqli
+extension=openssl
 extension=sqlite3
 ```
 
 You can uncomment more extensions depending upon your needs. One last thing is to increase the memory limits. You can do so by adjusting the following variables
 
 ```ini
-post_max_size = 8M 
+post_max_size = 8M
 ...
-upload_max_filesize = 2M 
+upload_max_filesize = 2M
 ...
 memory_limit = 128M`
 ```
@@ -162,9 +163,9 @@ Adjust the values accordingly according to the system/server you are using and w
 Now that both Nginx and PHP are set up, run the following commands on Commandline.
 
 ```powershell
-net stop nginx 
-net start nginx 
-net stop php 
+net stop nginx
+net start nginx
+net stop php
 net start php
 ```
 
@@ -189,8 +190,8 @@ And that's all folks. Now you have an Nginx/PHP/MariaDB based server setup on yo
 To start or stop any service use the commands
 
 ```powershell
-net start/stop nginx 
-net start/stop mariadb 
+net start/stop nginx
+net start/stop mariadb
 net start/stop php
 ```
 

@@ -7,7 +7,7 @@ category:
     - linux
     - tutorials
 tag:
-    - ubuntu
+    - "debian 12"
     - mongodb
 ---
 

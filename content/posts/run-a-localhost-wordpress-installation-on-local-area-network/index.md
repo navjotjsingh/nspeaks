@@ -1,8 +1,10 @@
 ---
 title: "Run a Localhost WordPress Installation on Local Area Network"
 date: "2019-07-31"
-category: 
+category:
   - "wordpress"
+tag:
+  - localhost
 summary: Access your Localhost WordPress install from any device on your LAN.
 slug: run-a-localhost-wordpress-installation-on-local-area-network
 ---

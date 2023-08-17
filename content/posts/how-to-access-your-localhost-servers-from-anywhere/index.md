@@ -1,8 +1,10 @@
 ---
 title: "How to Access your Localhost Servers from anywhere"
 date: "2019-03-20"
-category: 
+category:
   - "useful-tips"
+tag:
+  - localhost
 summary: How to make your Localhost Server public on the Internet.
 slug: how-to-access-your-localhost-servers-from-anywhere
 ---
