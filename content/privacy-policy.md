@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 url: "/privacy-policy/"
-date: "2022-06-25"
+date: "2023-09-07"
 summary: NSpeaks' Privacy Policy.
 disableShare: true
 ---
@@ -14,7 +14,7 @@ Our website address is `https://nspeaks.com`. The site is run by Navjot Singh, a
 
 ### Analytics
 
-We use the [Umami analytics](https://umami.is/) tool, which collects data anonymously and doesn’t place any cookies or tracking information on your computer. No IP addresses are collected in this case. Since we use their self-hosted tool, the statistics collected are stored on our server and are not shared with anyone.
+We use the [Umami analytics](https://umami.is/) tool, which collects data anonymously and doesn’t place any cookies or tracking information on your computer. No IP addresses are collected in this case. You can refer to [Umami's privacy page](https://umami.is/privacy) for more information.
 
 ### Affiliate Links
 
