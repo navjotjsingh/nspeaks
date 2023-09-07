@@ -65,7 +65,7 @@ enableInlineShortcodes = true
 
   [params.homeInfoParams]
   Title = "Hi there 👋"
-  Content = "Welcome to my professional space where I share tutorials on Linux, and Server Administration. I may on occassion share random useful tips from any topic that I find of interest. You can reach me on any of my socials below or you can contact me at <a href='mailto:navjot@nspeaks.com'>navjot@nspeaks.com</a>. I maintain a <a href='https://diary.nspeaks.com' title='Personal Blog'>personal blog</a> as well where I post random stuff and talk about movies and shows."
+  Content = "Welcome to my professional space where I share tutorials on Linux, and Server Administration. I may on occassion share random useful tips from any topic that I find of interest. If you want a Linux tutorial for your site, you can reach me on any of my socials below or you can contact me at <a href='mailto:navjot@nspeaks.com'>navjot@nspeaks.com</a>. I maintain a <a href='https://diary.nspeaks.com' title='Personal Blog'>personal blog</a> as well where I post random stuff and talk about movies and shows."
 
   [[params.socialIcons]]
   name = "twitter"
