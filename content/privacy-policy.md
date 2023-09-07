@@ -1,6 +1,7 @@
 ---
 title: "Privacy Policy"
 url: "/privacy-policy/"
+date: "2022-06-25"
 summary: NSpeaks' Privacy Policy.
 disableShare: true
 ---

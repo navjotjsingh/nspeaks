@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 url: "/about/"
+date: "2022-06-25"
 summary: About the author of NSpeaks
 disableShare: true
 ---
