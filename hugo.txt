@@ -11,8 +11,6 @@ https://github.com/rootwork/rootwork.org
 https://neonmirrors.net/
 https://github.com/chipzoller/hugo-clarity
 
-http://localhost:1313/
-
 https://gohugo.io/commands/hugo/
 https://gohugo.io/commands/hugo_server/
 
