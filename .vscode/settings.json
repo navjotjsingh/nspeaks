@@ -1,0 +1,9 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "content/posts/math-symbols-office-365-mobile/type-math-symbols-office-365-mobile.md"
+        }
+    ]
+}
