@@ -1,7 +1,7 @@
 baseURL = 'https://nspeaks.com/'
 languageCode = 'en-us'
 title = 'NSpeaks'
-theme = 'PaperMod'
+theme = 'hugo-PaperMod'
 paginate = 5
 enableEmoji = true
 Copyright = "<a href='/archives/'>Archives</a> | <a href='/privacy-policy'>Privacy Policy</a> <span>&copy; 2022 <a href='https://nspeaks.com'>NSpeaks</a></span>"
