@@ -2,7 +2,6 @@
 title: "How to Type Math Symbols in Microsoft Office 365 Mobile"
 date: 2023-09-20T11:55:57+05:30
 math: katex
-draft: true
 description: How to Type Math Symbols and Equations in Micorosft 365 Mobile application.
 summary: How to Type Math Symbols and Equations on phone using Microsoft 365 Office application.
 category:
