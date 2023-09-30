@@ -1,7 +1,9 @@
+User-agent: *
+Allow: /
+Sitemap: https://nspeaks.com/sitemap.xml
+
 User-agent: GPTBot
 User-agent: CCBot
 User-agent: ChatGPT-User
 User-Agent: Google-Extended
-{{ range .Pages }}
-Disallow: {{ .RelPermalink }}
-{{ end }}
+Disallow: /
