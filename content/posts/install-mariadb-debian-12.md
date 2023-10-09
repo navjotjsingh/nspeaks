@@ -96,7 +96,7 @@ Now you can use MariaDB with any application installed on the server as usual.
 
 ## Install MariaDB (10.11/11.0) on Debian 12
 
-MariaDB has released official packages for Debian 12 for 10.11 and 11.0 versions. They haven't updated their downloads page though.
+MariaDB has released official packages for Debian 12 for 10.11 and 11.0 versions. ~~They haven't updated their downloads page though.~~
 
 Install the pre-requisites required for MariaDB.
 
