@@ -84,6 +84,10 @@ enableInlineShortcodes = true
   name = "mastodon"
   url = "https://mastodon.social/@nspeaks"
 
+  [[params.socialIcons]]
+  name = "palestine"
+  url = "https://www.aljazeera.com/news/2023/10/9/whats-the-israel-palestine-conflict-about-a-simple-guide"
+
   [params.fuseOpts]
   isCaseSensitive = false
   shouldSort = true
