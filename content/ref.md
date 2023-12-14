@@ -13,11 +13,13 @@ I will never recommend anything that I have not used or love.
 
 1. [DigitalOcean](https://www.digitalocean.com/?refcode=574d284bdcd2&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste) - Get $200 in credit to use over 60 days.
 
-2. [Vultr](https://www.vultr.com/?ref=8979038-8H) - Get $100 in credit to use over 14 days. Need valid Credit card or Paypal account to avail the offer.
+2. [Vultr](https://www.vultr.com/promo/try250/) - Get $250 in credit to use. Need valid Credit card or Paypal account to avail the offer.
 
-3. [Cloudways](https://nspeaks.com/cloudways) - Managed VPS hosting for WordPress and PHP projects. It works as a control panel with popular Cloud VPS hosts.
+3. [Cloudways](https://nspeaks.com/cloudways) - Managed VPS hosting for WordPress and PHP projects. It works as a control panel with VPS hosts such as DigitalOcean, AWS, and Google Cloud. Get $100 in free credits.
 
 4. [Kinsta Application Hosting](https://kinsta.com/application-hosting/?kaid=HJNYGYNKHEXF) - Get $20 off for the first month.
+
+5. [DreamHost](https://dreamhost.com) - Get Shared, Managed WordPress and VPS Hosting.
 
 ## Serverless Platforms
 

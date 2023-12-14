@@ -3,7 +3,7 @@ HUGO_VERSION = "0.118.2"
 
 [[redirects]]
 from = "/cloudways"
-to = "https://www.cloudways.com/en/?id=56611"
+to = "https://www.cloudways.com/en/managed-hosting-for-digital-ocean.php?id=56611"
 status = 301
 force = true
 
