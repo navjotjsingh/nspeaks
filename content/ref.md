@@ -9,7 +9,7 @@ If you like my work and want to support me, you can do so by using the referral 
 
 I will never recommend anything that I have not used or love.
 
-## VPS Hosting
+## Web Hosting
 
 1. [DigitalOcean](https://www.digitalocean.com/?refcode=574d284bdcd2&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste) - Get $200 in credit to use over 60 days.
 
