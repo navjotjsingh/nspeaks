@@ -29,7 +29,7 @@ You can read more about JPEG XL at
 
 ## Which browsers support JPEG XL?
 
-As of [16 December 2023](https://caniuse.com/jpegxl) Firefox Nightly 90.0a1+ [2021-05-09] (Desktop), and Safari 17.0+ (Desktop and iOS) support the JPEG XL format. [Google removed support for JPEG-XL](https://bugs.chromium.org/p/chromium/issues/detail?id=1178058#c84) with v110. You can still enable use JPEG-XL in Chrome versions 91-109. And with Chrome dropping support for the format, all Chromium based browsers did as well.
+As of [16 December 2023](https://caniuse.com/jpegxl) Firefox Nightly 90.0a1+ (2021-05-09), and Safari 17.0+ support the JPEG XL format. [Google removed support for JPEG-XL](https://bugs.chromium.org/p/chromium/issues/detail?id=1178058#c84) with v110. And with Chrome dropping support for the format, all Chromium based browsers did as well. You can still use JPEG-XL in Chrome versions 91-109.
 
 To enable JPEG XL format in Chrome versions v91-109, open Chrome flags ( chrome://flags ) settings page and enable the option **Enable JXL image format** ( [chrome://flags/#enable-jxl](chrome://flags/#enable-jxl)).
 
