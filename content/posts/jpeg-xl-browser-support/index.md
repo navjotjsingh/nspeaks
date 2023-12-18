@@ -29,37 +29,21 @@ You can read more about JPEG XL at
 
 ## Which browsers support JPEG XL?
 
-As of [17 December 2022](https://caniuse.com/jpegxl), Firefox Beta 90+, Edge Stable 91+, Opera 77+, Brave 1.27.111+, and Vivaldi 4.1.2369.16 support the JPEG XL format. [Google removed support for JPEG-XL](https://bugs.chromium.org/p/chromium/issues/detail?id=1178058#c84) with v110. You can still enable use JPEG-XL in Chrome versions 91-109.
+As of [16 December 2023](https://caniuse.com/jpegxl) Firefox Nightly 90.0a1+ [2021-05-09] (Desktop), and Safari 17.0+ (Desktop and iOS) support the JPEG XL format. [Google removed support for JPEG-XL](https://bugs.chromium.org/p/chromium/issues/detail?id=1178058#c84) with v110. You can still enable use JPEG-XL in Chrome versions 91-109. And with Chrome dropping support for the format, all Chromium based browsers did as well.
 
 To enable JPEG XL format in Chrome versions v91-109, open Chrome flags ( chrome://flags ) settings page and enable the option **Enable JXL image format** ( [chrome://flags/#enable-jxl](chrome://flags/#enable-jxl)).
 
 ![Chrome Flag setting for enabling JPEG XL image format](images/chrome_yZPxuunM3d.png#center)
 
-**Firefox Beta (90+)** supports JPEG XL. To achieve that, you need to set the value of `image.jxl.enabled` to `true` on the `about:config` page.
+**Firefox Nightly (90.0a1+)** supports JPEG XL. To achieve that, you need to set the value of `image.jxl.enabled` to `true` on the `about:config` page.
 
 ![Firefox Setting for enabling JPEG XL image format](images/firefox_gxs3xPsRAg.png#center)
 
-**Firefox Nightly (91+)** offers a much easier way to enable support for the JXL image format. Open your Firefox settings page and visit the **Nightly Experiments** page and enable support for the JXL format from there.
+There is however an easier way to do it. Open your Firefox settings page and visit the **Nightly Experiments** page and enable support for the JXL format from there.
 
-![Firefox Nightly(91+) settings for enabling JPEG XL format](images/firefox_KiMQpKc7er.png#center)
+![Firefox Nightly(90.0a1+) settings for enabling JPEG XL format](images/firefox_KiMQpKc7er.png#center)
 
-**Firefox Stable** supports the JXL configuration flag but it doesn't work at the moment.
-
-**Microsoft Edge Stable (91+)** supports JPEG XL as well. To enable the feature, you need to launch the browser executable with the parameter. `--enable-features=JXL`.
-
-![Edge Shortcut explorer Properties box to add support for JPEG XL format](images/explorer_Pdl5NH3ZjO.png#center)
-
-**Opera 77** added support for the JXL format. It works in the same way as it does in the Chrome browser. Visit the link ( opera://flags/#enable-jxl ) in your browser address bar.
-
-![Opera Flag setting for enabling JPEG XL image format](images/vuTucaoQSZ.png#center)
-
-**Vivaldi 4.1.2369.16** supports the JXL image format as well. It again works the same way as it does in the Chrome browser. Visit the link ( vivaldi://flags/#enable-jxl ) in your browser address bar.
-
-![Vivaldi Flag setting for enabling JPEG XL image format](images/3mooLbSmgr.png#center)
-
-**Brave 1.27.111** also added support for the JXL image format in the same way as the Chrome browser. Visit the link ( brave://flags/#enable-jxl ) in your browser address bar.
-
-![Brave Flag setting for enabling JPEG XL image format](images/brave_zySKrmkIfW.png#center)
+**Firefox Stable, Beta, and Developer editions** support the JXL configuration flag but it doesn't work.
 
 ## How to convert your photos to JPEG XL format?
 
@@ -82,4 +66,4 @@ It would be best to use the HTML **<picture>** tag to embed JPEG XL pics on your
 
 **Note:** This page will be continuously updated as and when more tools and browser support are available.
 
-**Last Updated:** 17 December 2022
+**Last Updated:** 16 December 2023
