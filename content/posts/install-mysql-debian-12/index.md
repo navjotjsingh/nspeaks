@@ -268,5 +268,5 @@ This should install MySQL server. The service should be up and running.
 That's it. We have learnt all the ways you can install MySQL server on a Debian 12 system. It's upto you to choose the method that suits your requirements. To find out more, go through the following resources.
 
 - [MySQL Documentation](https://dev.mysql.com/doc/)
-- [MySQL Docker Page](https://container-registry.oracle.com/ords/f?p=113:1:108934019385449:::1:P1_BUSINESS_AREA:6&cs=33Rgx0sIafe5uRjplI3-2f1byP2NODq-xoyhIbEBmIAvgQ1EeCg0fvGcrU3dbraXiBzrjTlTs9ZhITVkX14P3tQ)
+- [MySQL Docker Page](https://container-registry.oracle.com/ords/ocr/ba/mysql/community-server)
 - [MySQL Downloads Page](https://dev.mysql.com/downloads/)
