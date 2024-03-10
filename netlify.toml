@@ -1,6 +1,16 @@
 [context.production.environment]
 HUGO_VERSION = "0.121.2"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "deny"
+    X-XSS-Protection = "1; mode=block"
+    Permissions-Policy = "interest-cohort=()"
+    Content-Security-Policy = "default-src 'self'"
+
 [[redirects]]
 from = "/cloudways"
 to = "https://www.cloudways.com/en/managed-hosting-for-digital-ocean.php?id=56611"
