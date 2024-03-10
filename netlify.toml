@@ -1,5 +1,5 @@
 [context.production.environment]
-HUGO_VERSION = "0.121.2"
+HUGO_VERSION = "0.123.0"
 
 [[headers]]
   for = "/*"
@@ -7,6 +7,7 @@ HUGO_VERSION = "0.121.2"
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "deny"
+    X-XSS-Protection = "1; mode=block"
     Permissions-Policy = "interest-cohort=()"
 
 [[redirects]]
