@@ -9,7 +9,7 @@ HUGO_VERSION = "0.121.2"
     X-Frame-Options = "deny"
     X-XSS-Protection = "1; mode=block"
     Permissions-Policy = "interest-cohort=()"
-    Content-Security-Policy = "default-src 'self'; style-src 'self'; img-src *; media-src youtube.com; script-src 'self' 'unsafe-hashes' https://analytics.umami.is"
+    Content-Security-Policy = "default-src 'self'; style-src 'self'; img-src *; media-src youtube.com; script-src 'self' 'unsafe-hashes' 'sha256-VucGeMv36MFXxCO6xNKHLzs4SheE9DsRJq5eWf1F0UQ= sha384-U7mktq9fnuecz/78somjXkiPMzvQsKMok4cYVKMCxvFZY2iOeViuv3YUPX606BFW sha512-qaBuCE2EsR/JEwOKAQAxU+Uh9wIm8Gh6KcJzI4jO8+7OOTmHUTMvp60xilEP6VnuR9jegJbfZJuU8L/cQAinxg=='"
 
 [[redirects]]
 from = "/cloudways"
