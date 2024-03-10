@@ -8,7 +8,6 @@ HUGO_VERSION = "0.121.2"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "deny"
     Permissions-Policy = "interest-cohort=()"
-    Access-Control-Allow-Origin = "https://analytics.umami.is"
 
 [[redirects]]
 from = "/cloudways"
