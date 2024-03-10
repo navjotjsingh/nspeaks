@@ -11,7 +11,7 @@ I will never recommend anything that I have not used or love.
 
 ## Web Hosting
 
-1. [DigitalOcean](https://www.digitalocean.com/?refcode=574d284bdcd2&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste) - Get $200 in credit to use over 60 days.
+1. [DigitalOcean](https://digitalocean.pxf.io/g1Bn4O) - Get $200 in credit to use over 60 days.
 
 2. [Vultr](https://www.vultr.com/promo/try250/?ref=9577234) - Get $250 in credit to use over 30 days. Need valid payment method to avail the offer.
 
