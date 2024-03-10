@@ -9,7 +9,7 @@ HUGO_VERSION = "0.121.2"
     X-Frame-Options = "deny"
     X-XSS-Protection = "1; mode=block"
     Permissions-Policy = "interest-cohort=()"
-    Content-Security-Policy = "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src *; media-src youtube.com; script-src 'unsafe-inline' 'unsafe-eval' analytics.umami.is"
+    Content-Security-Policy = "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src *; media-src youtube.com; script-src 'self' https://analytics.umami.is"
 
 [[redirects]]
 from = "/cloudways"
