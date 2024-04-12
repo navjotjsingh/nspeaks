@@ -19,7 +19,7 @@ I will never recommend anything that I have not used or love.
 
 4. [Kinsta Application Hosting](https://kinsta.com/application-hosting/?kaid=HJNYGYNKHEXF) - Get $20 off for the first month.
 
-5. [DreamHost](https://dreamhost.com) - Get Shared, Managed WordPress and VPS Hosting.
+5. [DreamHost](http://click.dreamhost.com/SHsK) - Get Shared, Managed WordPress and VPS Hosting.
 
 ## Serverless Platforms
 

@@ -1,5 +1,5 @@
 ---
-title: "Install Nginx, PHP 7.2, MariaDB on Windows"
+title: "Install Nginx, PHP 7.2, MariaDB (LEMP) on Windows"
 date: "2018-08-19"
 category:
   - "tutorials"
@@ -13,6 +13,8 @@ slug: install-nginx-php-mariadb-windows
 **UPDATE: 23 February, 2020** - Fixed a Lot of missing instructions and errors including commands to restart services.
 
 **UPDATE: 24 June, 2022** - Fixed formatting errors in the code and updated the version and other information.
+
+**Update: 12 April, 2024** - Fixed Nginx and PHP configuration errors.
 
 There is an abundance of tutorials in case you want to install nginx, PHP and MariaDB on Linux but when it comes to installing these tools on Windows, tutorials are either outdated or scattered. Anyway, let's see how we can setup Nginx, PHP and MariaDB on Windows.
 
@@ -109,7 +111,8 @@ Also, change the following line
 ```nginx
 location /
   {
-    root html; index.html index.htm;
+    root   html;
+    index  index.html index.htm;
   }
 ```
 
@@ -118,7 +121,8 @@ to
 ```nginx
 location /
   {
-    root html index.php index.html index.htm;
+    root html;
+    index index.php index.html index.htm;
   }
 ```
 
@@ -133,7 +137,13 @@ location ~ /.ht
 
 This will ensure that PHP code is loaded properly inside Nginx. root html means that you need to keep your content in _C:\\nginx\\html_ directory. You can change it accordingly. If you want to use a directory that's outside the Nginx folder then you need to specify the full pathname.
 
-Now we also need to make some adjustments to the php.ini file that we had saved earlier. Open _C:\\nginx\\php\\php.ini_ and scroll down to the Dynamic Extensions section and uncomment the following lines
+Now we also need to make some adjustments to the php.ini file that we had saved earlier. Open _C:\\nginx\\php\\php.ini_ and scroll down to the Paths and Directories section and uncomment the following setting to set the directory for PHP extensions.
+
+```ini
+extension_dir = "ext"
+```
+
+Next, scroll to the Dynamic Extensions section and uncomment the following lines.
 
 ```ini
 extension=bz2
@@ -158,7 +168,7 @@ upload_max_filesize = 2M
 memory_limit = 128M`
 ```
 
-Adjust the values accordingly according to the system/server you are using and what works for you.
+Adjust the values accordingly according to the system/server you are using and what works for you. The value of the `upload_max_filesize` variable should be equal or less than the `post_max_size`. The `upload_max_filesize` controls the limit for the files uploaded but for all other forms of POST data, the size is controlled by the `post_max_size` variable. But if you set the POST limit less than the file size limit, then the size of the file will depend on POST data variable.
 
 Now that both Nginx and PHP are set up, run the following commands on Commandline.
 
