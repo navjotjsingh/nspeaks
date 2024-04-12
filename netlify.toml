@@ -1,5 +1,5 @@
 [context.production.environment]
-HUGO_VERSION = "0.117.0"
+HUGO_VERSION = "0.120.4"
 
 [[headers]]
   for = "/*"
