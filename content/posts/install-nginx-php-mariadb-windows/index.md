@@ -14,7 +14,7 @@ slug: install-nginx-php-mariadb-windows
 
 **UPDATE: 24 June, 2022** - Fixed formatting errors in the code and updated the version and other information.
 
-**Update: 12 April, 2024** - Fixed Nginx and PHP configuration errors.
+**Update: 12 April, 2024** - Fixed Nginx and PHP configuration errors. (H/t to Jim K for spotting them.)
 
 There is an abundance of tutorials in case you want to install nginx, PHP and MariaDB on Linux but when it comes to installing these tools on Windows, tutorials are either outdated or scattered. Anyway, let's see how we can setup Nginx, PHP and MariaDB on Windows.
 
