@@ -11,11 +11,13 @@ tag:
     - mongodb
 ---
 
-Debian 12 (Bookworm) was released on June 10, 2023 and it has been 2 months since its release and we still don't have an official release of MongoDB for it. It's the same issue that we faced with Ubuntu 22.04 which was dependence on the old LibSSL 1.1 which was dropped with Debian 12 release.
+~~Debian 12 (Bookworm) was released on June 10, 2023 and it has been 2 months since its release and we still don't have an official release of MongoDB for it. It's the same issue that we faced with Ubuntu 22.04 which was dependence on the old LibSSL 1.1 which was dropped with Debian 12 release.~~
 
-MongoDB Team is working on adding support for Debian 12 but it will only support v7.0 for now with no plans to support the older versions. You can check the progress on MongoDB's issues page.
+~~MongoDB Team is working on adding support for Debian 12 but it will only support v7.0 for now with no plans to support the older versions. You can check the progress on MongoDB's issues page.~~
 
-Till the official package is available, we will have to use workarounds to get around the limitation.
+~~Till the official package is available, we will have to use workarounds to get around the limitation.~~
+
+MongoDB now supports Debian 12 out of the box for versions 7.x and above.
 
 ## Install MongoDB using Docker
 
@@ -84,47 +86,35 @@ docker run -d
 
 The above command will create a database with the provided credentials. To learn more, check the [MongoDB Docker hub](https://hub.docker.com/_/mongo) page.
 
-## Install MongoDB using a workaround
+## Install MongoDB using the official repository
 
-**Note**: This method is not recommended for production environments.
+If you don't want to use Docker, there is another method. This method involves using the official MongoDB repository.
 
-If you don't want to use Docker, you can use a workaround to installing MongoDB on Debian 12. The reason MongoDB doesn't work on Debian 12 is because of the missing `libssl1.1` library. Debian 12 is using `libssl3` instead which doesn't work with the MongoDB's debian packages.
-
-The workaround involves using the Debian 11 MongoDB package and manually installing the older version of the library.
-
-Download the `libssl1.1` library.
+Grab the MongoDB's GPG key and add it your system.
 
 ```bash
-wget https://security.debian.org/debian-security/pool/updates/main/o/openssl/libssl1.1_1.1.1n-0+deb11u5_amd64.deb
+curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
+   sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
+   --dearmor
 ```
 
-Install the library.
+Create the MongoDB repository file.
 
 ```bash
-sudo dpkg -i libssl1.1_1.1.1n-0+deb11u5_amd64.deb
+echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] http://repo.mongodb.org/apt/debian bookworm/mongodb-org/7.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
 ```
-
-Install MongoDB's GPG key.
-
-```bash
-curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
-   sudo gpg --dearmor -o /usr/share/keyrings/mongodb-server-6.0.gpg
-```
-
-Create the MongoDB repository file. We will use Debian 11(bullseye) release for the repository.
-
-```bash
-echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mongodb.org/apt/debian bullseye/mongodb-org/6.0 main" | \
-   sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
-```
-
-For 7.0 and 5.0 versions, replace 6.0 in the above commands with 7.0 and 5.0.
 
 Install MongoDB server.
 
 ```bash
 sudo apt update
-sudo apt install mongodb-org
+sudo apt install -y mongodb-org
+```
+
+Reload the System daemon.
+
+```bash
+sudo systemctl daemon-reload
 ```
 
 Enable and start MongoDB server.
