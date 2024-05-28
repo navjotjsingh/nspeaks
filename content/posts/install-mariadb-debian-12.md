@@ -1,5 +1,5 @@
 ---
-title: "Install Mariadb Debian 12"
+title: "Install MariaDB server on Debian 12"
 date: 2023-08-14T14:29:30+05:30
 description: How To Install MariaDB on a Debian 12 system.
 summary: How To Install MariaDB on Debian 12.

@@ -1,5 +1,5 @@
 ---
-title: "Install Mariadb Ubuntu 2404"
+title: "Install MariaDB server on Ubuntu 24.04"
 date: 2024-05-28T08:04:42+05:30
 description: How To Install MariaDB on a Ubuntu 24.04 system.
 summary: How To Install MariaDB on Ubuntu 24.04.
