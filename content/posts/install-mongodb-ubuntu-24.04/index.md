@@ -1,6 +1,6 @@
 ---
 title: "Install MongoDB server in Ubuntu 24.04"
-date: 2022-08-28T14:01:23+05:30
+date: 2024-05-28T07:52:42+05:30
 description: How to Install MongoDB in Ubuntu 24.04 system.
 summary: How to Install MongoDB on Ubuntu 24.04 using official methods
 category:
