@@ -11,15 +11,17 @@ I will never recommend anything that I have not used or love.
 
 ## Web Hosting
 
-1. [DigitalOcean](https://digitalocean.pxf.io/g1Bn4O) - Get $200 in credit to use over 60 days.
+1. [Hetzner](https://hetzner.cloud/?ref=uD5YliJiekmv) - Get €⁠20 in cloud credits. If you are looking for quality hosting at dirt cheap prices, Hetzner is the way to go.
 
-2. [Vultr](https://www.vultr.com/promo/try250/?ref=9577234) - Get $250 in credit to use over 30 days. Need valid payment method to avail the offer.
+2. [DigitalOcean](https://digitalocean.pxf.io/g1Bn4O) - Get $200 in credit to use over 60 days.
 
-3. [Cloudways](https://nspeaks.com/cloudways) - Managed VPS hosting for WordPress and PHP projects. It works as a control panel with VPS hosts such as DigitalOcean, AWS, and Google Cloud. Get $100 in free credits.
+3. [Vultr](https://www.vultr.com/promo/try250/?ref=9577234) - Get $250 in credit to use over 30 days. Need valid payment method to avail the offer.
 
-4. [Kinsta Application Hosting](https://kinsta.com/application-hosting/?kaid=HJNYGYNKHEXF) - Get $20 off for the first month.
+4. [Cloudways](https://nspeaks.com/cloudways) - Managed VPS hosting for WordPress and PHP projects. It works as a control panel with VPS hosts such as DigitalOcean, AWS, and Google Cloud. Get $100 in free credits.
 
-5. [DreamHost](http://click.dreamhost.com/SHsK) - Get Shared, Managed WordPress and VPS Hosting.
+5. [Kinsta Application Hosting](https://kinsta.com/application-hosting/?kaid=HJNYGYNKHEXF) - Get $20 off for the first month.
+
+6. [DreamHost](http://click.dreamhost.com/SHsK) - Get Shared, Managed WordPress and VPS Hosting.
 
 ## Serverless Platforms
 
