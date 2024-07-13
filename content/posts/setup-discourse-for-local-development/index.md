@@ -10,6 +10,8 @@ summary: Learn how to install Discourse Forum software for Local development.
 slug: setup-discourse-for-local-development
 ---
 
+**Last Updated: 13 July, 2024**
+
 There are plenty of guides available for installing Discourse Forum software on Cloud and VPS hosting but if you are a developer and want to test and work on Discourse for Local development, you need a way to install it on your local PC.
 
 This guide will show you how to install Discourse for Local Development on your PC (Windows, Linux and macOS). For Windows installation, we will be using WSL (Windows Subsystem for Linux) to install. Therefore, the commands for Linux and Windows (WSL) will remain the same unless specifically mentioned.
@@ -23,10 +25,16 @@ The first step is to install Docker which is required by Discourse to work. I am
 Use the following commands to install Docker on Ubuntu 20.04.
 
 ```bash
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt install -y ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt update
-sudo apt install -y docker-ce
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
 The above commands will add Docker repository and install the latest stable version of Docker Engine. But you will need to use `sudo` every time to run Docker. To run Docker using the user you log-in from, use the following command.
@@ -61,7 +69,7 @@ sudo service docker status
 
 There are two ways to install Docker in macOS.
 
-The first method is to download the dmg package from [Docker Hub](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) and use it.
+The first method is to download the dmg package from [Docker](https://docs.docker.com/desktop/install/mac-install/) and use it.
 
 The second method is to use the following command on mac Terminal which uses [Homebrew](https://brew.sh/).
 
@@ -80,21 +88,55 @@ git clone https://github.com/discourse/discourse.git
 cd discourse
 ```
 
-Run the following command to initialise and install the Docker image for Discourse and set up an administrator user.
+Run the following command to initialise and install the Docker image for Discourse and set up an administrator user. The `d` directory is not an actual directory but a symlink to the actual `bin/docker` directory which is where the actual executables are.
 
 ```bash
 d/boot_dev --init
 ```
 
+The command will end with the following prompts about creating an administrator account. Enter your account credentials and choose `y` to make it an administrator account to finish the process.
+
+```bash
+Creating admin user...
+Email:  name@domain.com
+Password:
+Repeat password:
+
+Ensuring account is active!
+
+Account created successfully with username name
+Do you want to grant Admin privileges to this account? (Y/n)  y
+
+Your account now has Admin privileges!
+```
+
 Next, run the following command to start the Rails server for Discourse.
 
 ```bash
-d/unicorn
+d/rails s
 ```
 
-The `d` directory is not an actual directory but a symlink to the actual `bin/docker` directory which is where the actual executables are.
+Launch another terminal, switch to the Discourse directory and run the following command.
 
-Now, launch the URL `http://localhost:9292` in your browser and you can start using the Discourse application.
+```bash
+cd ~/discourse
+d/ember-cli
+```
+
+Wait for the following lines to show in the output.
+
+```bash
+Build successful (136070ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%)                              | Total (avg)
+-------------------------------------------------------------+----------------
+@embroider/webpack (1)                                       | 92088ms
+Babel: admin (1)                                             | 8239ms
+Babel: discourse-plugins (21)                                | 7902ms (376 ms)
+DiscourseScss (2)                                            | 7262ms (3631 ms)
+```
+
+Now, launch the URL `http://localhost:4200` in your browser and you can start using the Discourse application. You need to keep both the commands running on separate terminals in order for Discourse to run. Once you are finished using, you can terminate the commands by pressing **Ctrl + C** in both the terminals.
 
 ### Plugin Testing using Symlinks
 
@@ -117,16 +159,20 @@ d/boot_dev
 
 There are a few more commands that you might require while working with Discourse.
 
+- To test emails, run MailHog: `d/mailhog`
 - If there are missing gems, use: `d/bundle install`
 - If you need to migrate the Database, use: `d/rails db:migrate RAILS_ENV=development`
 - To kill the Docker container, use: `d/shutdown_dev`
 - Data is persisted between invocations of the container in your source root `tmp/postgres` directory. To reset the database, use: `sudo rm -fr data`
 - If you wish to globally expose the ports from the container to the network, use: `d/boot_dev -p`
 - To Run Tests, use: `d/rake autospec`
+- To run plugin specific tests, run `d/rake plugin:spec["your-plugin"]`
 
 ### References
 
-This is not the only way to install Docker for local development. There are other ways (which I have not tested) and may work for you. I am listing them here. This guide itself was made possible by a Discourse team member who posted it on [their forum](https://meta.discourse.org/t/beginners-guide-to-install-discourse-for-development-using-docker/102009).
+This guide itself was made possible by a Discourse team member who posted it on [their forum](https://meta.discourse.org/t/beginners-guide-to-install-discourse-for-development-using-docker/102009). You can also post any bug or issue you encounter on this thread.
+
+This is not the only way to install Docker for local development. There are other ways (which I have not tested) and may work for you. I am listing them here.
 
 - [Beginners Guide to install Discourse on Ubuntu for Development](https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-ubuntu-for-development/14727)
 - [Beginners Guide to install Discourse on Windows 10 for Development](https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-windows-10-for-development/75149)
