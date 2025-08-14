@@ -150,7 +150,6 @@ home = [ "HTML", "RSS", "JSON" ]
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    noHl = false
     style = 'solarized-dark'
     tabWidth = 4
 

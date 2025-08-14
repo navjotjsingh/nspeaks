@@ -17,30 +17,30 @@ I am writing this tutorial basically to make Proton VPN work but it should work 
 
 The first step is to install Wireguard. Fire up your terminal and paste the following command to install Wireguard.
 
-```zsh
+```bash
 ~ sudo pacman -S wireguard-tools
 ```
 
 Wireguard requires `resolvconf` to work. For that you need to install the `systemd-resolvconf` AUR package. Run the following command to follow through.
 
-```zsh
+```bash
 ~ sudo pacman -Syu systemd-resolvconf
 ```
 
 Enable and start the service.
 
-```zsh
+```bash
 ~ sudo systemctl enable --now systemd-resolved
 ```
 
 Check the status of the service.
 
-```zsh
+```bash
 ~ sudo systemctl status systemd-resolved
 ```
 
 Output:
-```zsh
+```bash
 ● systemd-resolved.service - Network Name Resolution
      Loaded: loaded (/usr/lib/systemd/system/systemd-resolved.service; enabled; preset: enabled)
      Active: active (running) since Mon 2025-08-11 09:08:16 IST; 2h 33min ago
@@ -72,7 +72,7 @@ Give a name to your profile, select **GNU/Linux** as the platform, and select th
 
 Copy the wireguard configuration file to the `/etc/wireguard` directory.
 
-```zsh
+```bash
 ~ sudo cp ~/Downloads/navjotSW1.conf /etc/wireguard
 ```
 
@@ -80,13 +80,13 @@ Copy the wireguard configuration file to the `/etc/wireguard` directory.
 
 Start the Wireguard VPN. The configuration name should match the file name without the extension. In our example, we named our configuration file as ```navjotSW1.conf```. Therefore, we will use `navjotSW1` as the profile name for the Wireguard client.
 
-```zsh
+```bash
 ~ sudo wg-quick up navjotSW1
 ```
 
 Output:
 
-```zsh
+```bash
 [#] ip link add dev navjotSW1 type wireguard
 [#] wg setconf navjotSW1 /dev/fd/63
 [#] ip -4 address add 10.2.0.2/32 dev navjotSW1
@@ -106,7 +106,7 @@ Output:
 
 To switch off the VPN, use the following command.
 
-```zsh
+```bash
 ~ sudo wg-quick down navjotSW1
 ```
 
