@@ -1,7 +1,12 @@
 ---
 title: "Install Wireguard VPN on Manjaro Linux"
 date: 2025-08-14T16:53:50+05:30
-draft: true
+category:
+  - "tutorials"
+tag:
+  - wireguard
+  - manjaro
+summary: How to Install Wireguard VPN on a Manjaro Linux server.
 ---
 
 I am a long time Proton VPN user and recently switched to Manjaro as my secondary distro. And I realised, that Proton doesn't care much about Manjaro and neither they do. If you try to install via the unofficial [Flathub repo](https://flathub.org/apps/com.protonvpn.www), it doesn't work. They deleted the `proton-vpn-cli` AUR package and replaced it with `proton-vpn-cli-community`. It would have been fine but the issue is the package it depends on (`python-pythondialog`) has been removed as well. I am sure there are some workarounds for it but they are not worth the trouble.
