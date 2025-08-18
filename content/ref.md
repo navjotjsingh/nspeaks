@@ -52,6 +52,14 @@ I will never recommend anything that I have not used or love.
 
 2. [Fathom Analytics](https://usefathom.com/ref/AIAONB)
 
+3. [Simple Analytics](https://www.simpleanalytics.com/?referral=waqiv)
+
+4. [Pirsch](https://pirsch.io/)
+
+5. [Usermaven](https://usermaven.com?via=pucv5m)
+
+6. [Umami](https://umami.is/)
+
 ## Password Manager
 
 1. [1Password](https://1password.com/)
