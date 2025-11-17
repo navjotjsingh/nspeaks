@@ -76,7 +76,6 @@ I will never recommend anything that I have not used or love.
 
 1. [MullVad VPN](https://mullvad.net/en/)
 2. [Proton VPN](https://protonvpn.com/)
-3. [PrivateInternetAccess VPN](https://www.privateinternetaccess.com/pages/buy-vpn/nspeaks)
-4. [SurfShark VPN](https://get.surfshark.net/SHiE)
-5. [NordVPN](https://nordvpn.sjv.io/nspeaks)
-6. [AzireVPN](https://www.azirevpn.com/ref/YOnAemTSX7)
+3. [SurfShark VPN](https://get.surfshark.net/SHiE)
+4. [NordVPN](https://nordvpn.sjv.io/nspeaks)
+5. [AzireVPN - Try free for 14 days](https://manager.azirevpn.com/ref/YOnAemTSX7)
