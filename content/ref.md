@@ -63,7 +63,8 @@ I will never recommend anything that I have not used or love.
 ## Password Manager
 
 1. [1Password](https://1password.com/)
-2. [Bitwarden](https://bitwarden.com/)
+2. [KeeKeePassXC](https://keepassxc.org/)
+3. [NordPass](https://nordpass.com/)
 
 ## Newsletters
 
