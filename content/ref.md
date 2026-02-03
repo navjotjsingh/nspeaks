@@ -23,6 +23,10 @@ I will never recommend anything that I have not used or love.
 
 6. [DreamHost](http://click.dreamhost.com/SHsK) - Get Shared, Managed WordPress and VPS Hosting.
 
+## DNS Services
+
+1. [NextDNS](https://nextdns.io/?from=5tmgxtae) - Get Ad free and malware free browsing across all your devices with minimal configuration.
+
 ## Serverless Platforms
 
 1. [Netlify](https://netlify.com)
