@@ -14,6 +14,8 @@ slug: jpeg-xl-browser-support
 
 **Note:** If your browser supports JPEG XL, you will see the image with the text saying it supports JPEG XL. Else, you will see a fallback JPEG image.
 
+**Last Updated:** 9 March 2026
+
 ## What is JPEG XL?
 
 JPEG XL is a next-generation image codec being in the process of being standardized by the JPEG Committee. It separates itself from other newer formats like WebP, AVIF, and HEIC as it is not based on any video codec like they are. This gives it an advantage as it has been specifically made to display images and offers much better quality and smaller file sizes than any other codec.
@@ -29,9 +31,9 @@ You can read more about JPEG XL at
 
 ## Which browsers support JPEG XL?
 
-As of [16 December 2023](https://caniuse.com/jpegxl) Firefox Nightly 90.0a1+ (2021-05-09), and Safari 17.0+ support the JPEG XL format. [Google removed support for JPEG-XL](https://bugs.chromium.org/p/chromium/issues/detail?id=1178058#c84) with v110. And with Chrome dropping support for the format, all Chromium based browsers did as well. You can still use JPEG-XL in Chrome versions 91-109.
+As of [9 March 2026](https://caniuse.com/jpegxl) Firefox Nightly 90.0a1+ (2021-05-09), and Safari 17.0+ support the JPEG XL format. [Google removed support for JPEG-XL](https://bugs.chromium.org/p/chromium/issues/detail?id=1178058#c84) with v110 but added it again with v145. And with Chrome dropping support for the format, all Chromium based browsers did as well. You can still use JPEG-XL in Chrome versions 91-109 and again with v145.
 
-To enable JPEG XL format in Chrome versions v91-109, open Chrome flags ( chrome://flags ) settings page and enable the option **Enable JXL image format** ( [chrome://flags/#enable-jxl](chrome://flags/#enable-jxl)).
+To enable JPEG XL format in Chrome versions v91-109, open Chrome flags ( chrome://flags ) settings page and enable the option **Enable JXL image format** ( [chrome://flags/#enable-jxl](chrome://flags/#enable-jxl)). To do the same in Chrome v145, use the flag [chrome://flags/#enable-jxl-image-format](chrome://flags/#enable-jxl-image-format).
 
 ![Chrome Flag setting for enabling JPEG XL image format](images/chrome_yZPxuunM3d.png#center)
 
@@ -65,5 +67,3 @@ It would be best to use the HTML **<picture>** tag to embed JPEG XL pics on your
 ```
 
 **Note:** This page will be continuously updated as and when more tools and browser support are available.
-
-**Last Updated:** 16 December 2023
