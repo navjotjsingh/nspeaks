@@ -4,7 +4,7 @@ title = 'NSpeaks'
 theme = 'PaperMod'
 pagination.pagerSize = 5
 enableEmoji = true
-Copyright = "<a href='/archives/'>Archives</a> | <a href='/privacy-policy'>Privacy Policy</a> <span>&copy; 2022 <a href='https://nspeaks.com'>NSpeaks</a></span>"
+Copyright = "<a href='/archives/'>Archives</a> | <a href='/privacy-policy'>Privacy Policy</a> <span>&copy; 2026 <a href='https://nspeaks.com'>NSpeaks</a></span>"
 
 enableRobotsTXT = true
 buildDrafts = false
