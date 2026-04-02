@@ -57,7 +57,7 @@ Copy the executable into the `C:\nginx` directory and rename it as _nginxservice
 
 Create a file named _nginxservice.xml_ and paste the following code into it.
 
-{{< gist navjotjsingh 13b8ee9cbb33e42829a8c5d669b4f8c7 >}}
+<script src="https://gist.github.com/navjotjsingh/13b8ee9cbb33e42829a8c5d669b4f8c7.js"></script>
 
 Now, launch Powershell or Command center in Administrator mode and run the following command
 
@@ -79,7 +79,7 @@ PHP under Nginx runs as a CGI application. Like Nginx, PHP also doesn't run as a
 
 First, rename _php.ini-production_ to _php.ini_. Also, create an empty directory **php** under _C:/nginx/logs_. Then create a file named _php-stop.cmd_ in php directory and add the following line to it `taskkill /f /IM php-cgi.exe` Now create an empty file named _phpservice.xml_ and copy the following lines to it.
 
-{{< gist navjotjsingh 642113c000b5ed118dab4be031a28ce7 >}}
+<script src="https://gist.github.com/navjotjsingh/642113c000b5ed118dab4be031a28ce7.js"></script>
 
 I have used the port number 9999 above. You can use any port number you like to start PHP under.
 
