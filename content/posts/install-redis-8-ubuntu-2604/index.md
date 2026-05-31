@@ -1,7 +1,6 @@
 ---
 title: "Install Redis 8 in Ubuntu 26.04"
 date: 2026-05-29T05:27:00Z
-draft: true
 description: How to Install Redis 8 in Ubuntu 26.04 system.
 summary: How to Install MongoDB on Ubuntu 26.04 using Redis official repository.
 category:
