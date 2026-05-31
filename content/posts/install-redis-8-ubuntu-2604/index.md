@@ -61,13 +61,13 @@ sudo apt install redis-server
 
 Check the installed version.
 
-```
+```bash
 redis-server --version
 ```
 
 You should see a similar output.
 
-```
+```bash
 Redis server v=8.8.0 sha=00000000:1 malloc=jemalloc-5.3.0 bits=64 build=d411285969092c36
 ```
 
@@ -79,7 +79,7 @@ sudo systemctl status redis-server
 
 You will get the following output. Ubuntu automatically starts and enables the Redis service.
 
-```
+```bash
 ● redis-server.service - Advanced key-value store
      Loaded: loaded (/usr/lib/systemd/system/redis-server.service; enabled; preset: enabled)
      Active: active (running) since Fri 2026-05-29 13:03:15 UTC; 17h ago
@@ -107,31 +107,31 @@ sudo nano /etc/redis/redis.conf
 
 By default, Redis accepts connection from `localhost`. To accept connections from outside, change the value of the `bind` variabke,
 
-```
+```text
 bind 0.0.0.0
 ```
 
 To accept connections from specified hosts, you can define it in the following way. Notice the lack of commas.
 
-```
+```text
 bind 127.0.0.1 192.168.1.100
 ```
 
 To prevent unauthorized access, you need to lock it using a strong password. Set the `requirepass` variable after uncommenting it in the following manner.
 
-```
+```text
 requirepass <StrongRedisPassword>
 ```
 
 Choose a strong password. Redis being pretty fast, it is easy to break the password. To increase the password complexity, use the following command to generate the password.
 
-```bash
+```text
 openssl rand 60 | openssl base64 -A
 ```
 
 Set a memory limit as per your system resources.
 
-```
+```text
 maxmemory 256mb
 maxmemory-policy allkeys-lru
 ```
